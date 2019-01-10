@@ -10,6 +10,25 @@ of course. So there it is. It is a simple app that is working with his informati
 + [Coding Style Guide](https://github.com/raywenderlich/swift-style-guide)
 + Architecture - [Clean Swift](https://clean-swift.com)
 
+### Commits:
+https://gist.github.com/pocotan001/68f96bf86891db316f20
+⚽ UI
+🎨 when improving the format/structure of the code
+🚀 when improving performance
+✏️ when writing docs
+💡 new idea
+🚧 work in progress
+➕ when adding feature
+➖ when removing feature
+🔈 when adding logging
+🔇 when reducing logging
+🐛 when fixing a bug
+🔒 when dealing with security
+✅ when adding tests
+⬆️ when upgrading dependencies
+⬇️ when downgrading dependencies
+
+
 ### PREREQUISITES
 
 + Mac computer
@@ -25,7 +44,7 @@ Deployment Target: 11.0
 
 > **NB! You can build an application with SDK 7 that runs under iOS 6. But then you have to take care to not use any function or method that is not available on iOS 6. If you do, your application will crash on iOS 6 as soon as this function is used.**
 
-  
+
 ### ARCHIVE
 
 + Select Generic iOS Device for building.
