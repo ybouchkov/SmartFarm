@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B2FB74029182E3892EF5D23 /* Pods_SmartFarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFCF6824CA4BA6C905FB717 /* Pods_SmartFarmUITests.framework */; };
 		26AE000421E78025009ED8CA /* CowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE000321E78025009ED8CA /* CowsViewController.swift */; };
+		26AE000721E7A6B6009ED8CA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 26AE000621E7A6B6009ED8CA /* README.md */; };
 		26AEFFD021E77C9B009ED8CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFCF21E77C9B009ED8CA /* AppDelegate.swift */; };
 		26AEFFD521E77C9B009ED8CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AEFFD321E77C9B009ED8CA /* Main.storyboard */; };
 		26AEFFD721E77C9D009ED8CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AEFFD621E77C9D009ED8CA /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		26AE000321E78025009ED8CA /* CowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsViewController.swift; sourceTree = "<group>"; };
+		26AE000621E7A6B6009ED8CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26AEFFCC21E77C9B009ED8CA /* SmartFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AEFFCF21E77C9B009ED8CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26AEFFD421E77C9B009ED8CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		26AEFFC321E77C9B009ED8CA = {
 			isa = PBXGroup;
 			children = (
+				26AE000621E7A6B6009ED8CA /* README.md */,
 				26AEFFCE21E77C9B009ED8CA /* SmartFarm */,
 				26AEFFE321E77C9D009ED8CA /* SmartFarmTests */,
 				26AEFFEE21E77C9D009ED8CA /* SmartFarmUITests */,
@@ -316,6 +319,7 @@
 			files = (
 				26AEFFDA21E77C9D009ED8CA /* LaunchScreen.storyboard in Resources */,
 				26AEFFD721E77C9D009ED8CA /* Assets.xcassets in Resources */,
+				26AE000721E7A6B6009ED8CA /* README.md in Resources */,
 				26AEFFD521E77C9B009ED8CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
