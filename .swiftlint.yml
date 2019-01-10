@@ -1,0 +1,95 @@
+opt_in_rules:
+  # Opt_in autocorrect rules
+  - explicit_init
+  - closure_spacing
+  - joined_default_parameter
+  - nimble_operator
+  - operator_usage_whitespace
+  - redundant_nil_coalescing
+  - unneeded_parentheses_in_closure_argument
+
+  #Opt_in rules
+  - array_init
+  - closure_end_indentation
+  - contains_over_first_not_nil
+  - empty_count
+  - empty_string
+  - fatal_error_message
+  - first_where
+  - let_var_whitespace
+  - literal_expression_end_indentation
+  - multiline_arguments
+  - multiline_parameters
+  - no_extension_access_modifier
+  - object_literal
+  - private_action
+  - private_outlet
+  - prohibited_super_call
+  - sorted_first_last
+  - untyped_error_in_catch
+  - vertical_parameter_alignment_on_call
+  - yoda_condition
+  
+disabled_rules:
+  # Default autocorrect rules
+  - empty_parentheses_with_trailing_closure
+  - redundant_discardable_let
+  - overridden_super_call
+
+  # Default rules
+  - fallthrough
+  - large_tuple
+  - line_length
+  - nesting
+  - operator_whitespace
+  - todo
+  - type_body_length
+  - notification_center_detachment
+
+  # Nice_to_have_but_hard_to_solve ruless
+  - cyclomatic_complexity
+  - file_length
+  - function_body_length
+  - function_parameter_count
+  - force_unwrapping
+
+excluded:
+  - Pods
+
+custom_rules:
+  localize_function: # rule identifier
+    included: ".*\\.swift" # regex that defines paths to include during linting. optional.
+    name: "Localize function" # rule name. optional.
+    regex: "NSLocalizedString" # matching pattern
+    message: "Don't use NSLocalizedString(). Use \"string\".localized(withComment: ) instead." # violation message. optional.
+    severity: error # violation severity. optional.
+  
+  single_line_guard_return:
+    included: ".*\\.swift" # regex that defines paths to include during linting. optional.
+    name: "Single line guard return" # rule name. optional.
+    regex: "guard.*?else { *\n *return.*\n *}" # matching pattern
+    message: "If using guard only with return, make it single line." # violation message. optional.
+    severity: warning # violation severity. optional.
+
+  unconditional_assert:
+    included: ".*\\.swift" # regex that defines paths to include during linting. optional.
+    name: "Unconditional assert" # rule name. optional.
+    regex: "assert\\(false" # matching pattern
+    message: "Use assertionFailure() instead of assert() without condition." # violation message. optional.
+    severity: warning # violation severity. optional.
+ 
+trailing_whitespace: 
+  ignores_empty_lines: true
+
+identifier_name:
+  min_length: 1
+  max_length: 50
+
+type_name:
+  max_length: 60
+
+empty_count:
+  severity: warning
+
+private_outlet:
+  severity: warning

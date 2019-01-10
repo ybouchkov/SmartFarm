@@ -1,0 +1,20 @@
+PODS:
+  - SideMenu (5.0.3)
+  - SwiftLint (0.29.0)
+
+DEPENDENCIES:
+  - SideMenu
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SideMenu
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  SwiftLint: d4e7443d93e2bbe868dc302e6c7ac30b469d6a14
+
+PODFILE CHECKSUM: ce4aee2ac9884bf232e8b0d2fae4f698ecaeceb1
+
+COCOAPODS: 1.5.3

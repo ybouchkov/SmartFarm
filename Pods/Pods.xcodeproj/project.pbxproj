@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1962FF4A4701E0522B46097C1F0B8A79 /* Pods-SmartFarmUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1633B2D433F09B6C699DC2342929D37A /* Pods-SmartFarmUITests-dummy.m */; };
+		1A8F45CCBDE6A6DC54F4F73A6571643C /* Pods-SmartFarmTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74620D5314E34B187B8CC85CDD0D711E /* Pods-SmartFarmTests-dummy.m */; };
+		263D2D90EA37BCC2FCF8CDDD74564231 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D56F9CBC1BC263C41EDE13D87F8FF1B1 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26E809791A6FBC9FC251D8C423E08144 /* Pods-SmartFarm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4959242A27E9F4A592E15529EEBEAEE1 /* Pods-SmartFarm-dummy.m */; };
+		44D44EB4BC747ED2013F92AE14FD1C66 /* Pods-SmartFarmUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B13E7C1F721EBB3EA8E575F73FE066 /* Pods-SmartFarmUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		451072AE28C51B00E397A7C6509A4AEF /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203089CABA969DE36CD077D452C99C9E /* UISideMenuNavigationController.swift */; };
+		496FE868787CE91BE5959DFFB4C784F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		49FBE003FE63CDCCB9F55AD69D391594 /* Pods-SmartFarmTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D50CA5C23D308C337610E67DD58BF9 /* Pods-SmartFarmTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EC99D84F8EEE7424EBDD07E10AE31C0 /* Pods-SmartFarm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 241A0F4A4F6C65ED0DC914EC4F04D7E7 /* Pods-SmartFarm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B4DD45E88D4558DE247375CEADB4974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9D716368C27C8CD5FF2BE88F7EFFBA0B /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE4882475A25AD56C0BB8F4E4CA180 /* SideMenuTransition.swift */; };
+		AB530C5105A142D8D5F09665EA78458B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C71DF0839445D283D166F744ACA4A001 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AB2D595393E3A791665036F9AA392 /* UITableViewVibrantCell.swift */; };
+		CA2EE0373256022458895CE0277ABB4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F05445B5429189BA7093BB46C27EB256 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6320D8536038446B69E853CCAB2DDC /* SideMenu-dummy.m */; };
+		F7856BD0DFDCA6AD31AE0324BC980E4C /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4824F2142A4135920ADFE943EA638C /* SideMenuManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33BA6AD365D38059FAE591FC7F188B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570D56610D5F55DBE9C77C523C3AC526;
+			remoteInfo = "Pods-SmartFarm";
+		};
+		430D722C8D5C86E998DA97874024F1B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570D56610D5F55DBE9C77C523C3AC526;
+			remoteInfo = "Pods-SmartFarm";
+		};
+		90DE184BFE2AC88CE5CC49AE315D9665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 599551BB0F33AC2C87B604991017479E;
+			remoteInfo = SideMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E2DB78B943B2E6154A15D4E01A509D5 /* Pods-SmartFarm-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartFarm-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FCE4882475A25AD56C0BB8F4E4CA180 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
+		15403B4FC50E652A224C264D1CB5C440 /* Pods_SmartFarmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartFarmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1633B2D433F09B6C699DC2342929D37A /* Pods-SmartFarmUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartFarmUITests-dummy.m"; sourceTree = "<group>"; };
+		16D50CA5C23D308C337610E67DD58BF9 /* Pods-SmartFarmTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartFarmTests-umbrella.h"; sourceTree = "<group>"; };
+		1818838FF757D9179CA413EA3604B25E /* Pods-SmartFarmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartFarmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		203089CABA969DE36CD077D452C99C9E /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		241A0F4A4F6C65ED0DC914EC4F04D7E7 /* Pods-SmartFarm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartFarm-umbrella.h"; sourceTree = "<group>"; };
+		32B447DBFA3358F31D3A826F7078170B /* Pods-SmartFarm-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartFarm-resources.sh"; sourceTree = "<group>"; };
+		36AE3CE141DA2DF9B837B3E834F922D4 /* Pods-SmartFarmTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartFarmTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CC34251D0D642825268C9DC9B75DA5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4959242A27E9F4A592E15529EEBEAEE1 /* Pods-SmartFarm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartFarm-dummy.m"; sourceTree = "<group>"; };
+		52F5B913BE5523AF2F0087BD42C37B2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B13E7C1F721EBB3EA8E575F73FE066 /* Pods-SmartFarmUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartFarmUITests-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6511CE752B080D90E6B777EE4A307941 /* Pods_SmartFarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartFarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AD4B4E6AB2ABEB94E764DF1C0C3F5F /* Pods_SmartFarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartFarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE3FF3DF78FBD896DC3D38635D1C78E /* Pods-SmartFarm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartFarm.modulemap"; sourceTree = "<group>"; };
+		6F767CADD8CAA01332DF989D93C7877B /* Pods-SmartFarmUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartFarmUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74620D5314E34B187B8CC85CDD0D711E /* Pods-SmartFarmTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartFarmTests-dummy.m"; sourceTree = "<group>"; };
+		8EA542956E954680719B11AD59110B73 /* Pods-SmartFarmTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartFarmTests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9648CC579A6ACF85986DE9879AE10B9F /* Pods-SmartFarm-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartFarm-acknowledgements.plist"; sourceTree = "<group>"; };
+		A961DBD07ED0CD8CEBD10033004F6FD1 /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
+		AFB6F8F36303439FDD139BCE4F7606EF /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		B292EC938B67CFBDB8D31053CF7CE813 /* Pods-SmartFarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartFarmTests.release.xcconfig"; sourceTree = "<group>"; };
+		B442B771DF847CFEC7D7E0EEBC05A938 /* Pods-SmartFarmUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartFarmUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE0DA2713F5934346AD34AA1EAA6A2F9 /* Pods-SmartFarmUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartFarmUITests-resources.sh"; sourceTree = "<group>"; };
+		C291F152469ECF507AEF7B3E00BD769C /* Pods-SmartFarmTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartFarmTests-frameworks.sh"; sourceTree = "<group>"; };
+		C66D9D70A9035CF0C5861FB0C683FE4E /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C783055E2EF068DFF37919F03F6D5E68 /* Pods-SmartFarmTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartFarmTests.modulemap"; sourceTree = "<group>"; };
+		CB0199728D36BA47EB71757A56FABBF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C40F6A58848626BB1740871BC1E693 /* Pods-SmartFarm-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartFarm-frameworks.sh"; sourceTree = "<group>"; };
+		D4F577BC7A65249E506E2D5BAE7800ED /* Pods-SmartFarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartFarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D56F9CBC1BC263C41EDE13D87F8FF1B1 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		D78AB2D595393E3A791665036F9AA392 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		D81C1A57358F6BDFD92C06AD6BEA63C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBAEE64203CCC4515163B435DC7BE367 /* Pods-SmartFarmTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartFarmTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC04291BA127F1C4215127040334AFE5 /* Pods-SmartFarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartFarm.release.xcconfig"; sourceTree = "<group>"; };
+		DD4824F2142A4135920ADFE943EA638C /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		DE6320D8536038446B69E853CCAB2DDC /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		E0FC8E36E18E872F6632A4FD1488DA3A /* Pods-SmartFarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartFarmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E32EA53BE564E566A1DCC2A373400C15 /* Pods-SmartFarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartFarm.debug.xcconfig"; sourceTree = "<group>"; };
+		E53777203EB4674AB5FF33C92837D5B5 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		E67945A763447AE02F90449A511027CF /* Pods-SmartFarmUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartFarmUITests.modulemap"; sourceTree = "<group>"; };
+		F8F4DAFEC614DBE363EC9AFAA2EAC99C /* Pods-SmartFarmUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartFarmUITests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D85AE22C5868A2BD99E0F939402681F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4DD45E88D4558DE247375CEADB4974 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D5927816B64F8F8F00C366FC7E2858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2EE0373256022458895CE0277ABB4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DC25EF8167812853ED77E1C142EB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB530C5105A142D8D5F09665EA78458B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C605A16675DA83906B1FB83E8E33D063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496FE868787CE91BE5959DFFB4C784F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CA45B74A051B560850EF14D536A52B /* Pods-SmartFarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CC34251D0D642825268C9DC9B75DA5F /* Info.plist */,
+				C783055E2EF068DFF37919F03F6D5E68 /* Pods-SmartFarmTests.modulemap */,
+				36AE3CE141DA2DF9B837B3E834F922D4 /* Pods-SmartFarmTests-acknowledgements.markdown */,
+				DBAEE64203CCC4515163B435DC7BE367 /* Pods-SmartFarmTests-acknowledgements.plist */,
+				74620D5314E34B187B8CC85CDD0D711E /* Pods-SmartFarmTests-dummy.m */,
+				C291F152469ECF507AEF7B3E00BD769C /* Pods-SmartFarmTests-frameworks.sh */,
+				8EA542956E954680719B11AD59110B73 /* Pods-SmartFarmTests-resources.sh */,
+				16D50CA5C23D308C337610E67DD58BF9 /* Pods-SmartFarmTests-umbrella.h */,
+				1818838FF757D9179CA413EA3604B25E /* Pods-SmartFarmTests.debug.xcconfig */,
+				B292EC938B67CFBDB8D31053CF7CE813 /* Pods-SmartFarmTests.release.xcconfig */,
+			);
+			name = "Pods-SmartFarmTests";
+			path = "Target Support Files/Pods-SmartFarmTests";
+			sourceTree = "<group>";
+		};
+		2ADC29931CA01AFB10AC5F24F55806E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0199728D36BA47EB71757A56FABBF1 /* Info.plist */,
+				E53777203EB4674AB5FF33C92837D5B5 /* SideMenu.modulemap */,
+				A961DBD07ED0CD8CEBD10033004F6FD1 /* SideMenu.xcconfig */,
+				DE6320D8536038446B69E853CCAB2DDC /* SideMenu-dummy.m */,
+				AFB6F8F36303439FDD139BCE4F7606EF /* SideMenu-prefix.pch */,
+				D56F9CBC1BC263C41EDE13D87F8FF1B1 /* SideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C27DC07DFDF43B26D2CCA889C35699B /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BEA5D9D0D46148BC3CCC6EBDCA7137B9 /* Pods */,
+				E99A85DE41BC90906B3C42AAB6715B89 /* Products */,
+				B1DBF9D0283037EC153D8612AC59FF4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84A5511D39599AD6E2D4486CBD5FE756 /* Pods-SmartFarm */ = {
+			isa = PBXGroup;
+			children = (
+				D81C1A57358F6BDFD92C06AD6BEA63C3 /* Info.plist */,
+				6DE3FF3DF78FBD896DC3D38635D1C78E /* Pods-SmartFarm.modulemap */,
+				0E2DB78B943B2E6154A15D4E01A509D5 /* Pods-SmartFarm-acknowledgements.markdown */,
+				9648CC579A6ACF85986DE9879AE10B9F /* Pods-SmartFarm-acknowledgements.plist */,
+				4959242A27E9F4A592E15529EEBEAEE1 /* Pods-SmartFarm-dummy.m */,
+				D3C40F6A58848626BB1740871BC1E693 /* Pods-SmartFarm-frameworks.sh */,
+				32B447DBFA3358F31D3A826F7078170B /* Pods-SmartFarm-resources.sh */,
+				241A0F4A4F6C65ED0DC914EC4F04D7E7 /* Pods-SmartFarm-umbrella.h */,
+				E32EA53BE564E566A1DCC2A373400C15 /* Pods-SmartFarm.debug.xcconfig */,
+				DC04291BA127F1C4215127040334AFE5 /* Pods-SmartFarm.release.xcconfig */,
+			);
+			name = "Pods-SmartFarm";
+			path = "Target Support Files/Pods-SmartFarm";
+			sourceTree = "<group>";
+		};
+		93AE2AA73FC93C05B318670A1C524C15 /* Pods-SmartFarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52F5B913BE5523AF2F0087BD42C37B2B /* Info.plist */,
+				E67945A763447AE02F90449A511027CF /* Pods-SmartFarmUITests.modulemap */,
+				6F767CADD8CAA01332DF989D93C7877B /* Pods-SmartFarmUITests-acknowledgements.markdown */,
+				B442B771DF847CFEC7D7E0EEBC05A938 /* Pods-SmartFarmUITests-acknowledgements.plist */,
+				1633B2D433F09B6C699DC2342929D37A /* Pods-SmartFarmUITests-dummy.m */,
+				F8F4DAFEC614DBE363EC9AFAA2EAC99C /* Pods-SmartFarmUITests-frameworks.sh */,
+				BE0DA2713F5934346AD34AA1EAA6A2F9 /* Pods-SmartFarmUITests-resources.sh */,
+				58B13E7C1F721EBB3EA8E575F73FE066 /* Pods-SmartFarmUITests-umbrella.h */,
+				D4F577BC7A65249E506E2D5BAE7800ED /* Pods-SmartFarmUITests.debug.xcconfig */,
+				E0FC8E36E18E872F6632A4FD1488DA3A /* Pods-SmartFarmUITests.release.xcconfig */,
+			);
+			name = "Pods-SmartFarmUITests";
+			path = "Target Support Files/Pods-SmartFarmUITests";
+			sourceTree = "<group>";
+		};
+		B1DBF9D0283037EC153D8612AC59FF4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A5511D39599AD6E2D4486CBD5FE756 /* Pods-SmartFarm */,
+				05CA45B74A051B560850EF14D536A52B /* Pods-SmartFarmTests */,
+				93AE2AA73FC93C05B318670A1C524C15 /* Pods-SmartFarmUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEA5D9D0D46148BC3CCC6EBDCA7137B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6D5D0FB5D69682C50A890D9999A9E3F /* SideMenu */,
+				6C27DC07DFDF43B26D2CCA889C35699B /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E99A85DE41BC90906B3C42AAB6715B89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65AD4B4E6AB2ABEB94E764DF1C0C3F5F /* Pods_SmartFarm.framework */,
+				6511CE752B080D90E6B777EE4A307941 /* Pods_SmartFarmTests.framework */,
+				15403B4FC50E652A224C264D1CB5C440 /* Pods_SmartFarmUITests.framework */,
+				C66D9D70A9035CF0C5861FB0C683FE4E /* SideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6D5D0FB5D69682C50A890D9999A9E3F /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DD4824F2142A4135920ADFE943EA638C /* SideMenuManager.swift */,
+				0FCE4882475A25AD56C0BB8F4E4CA180 /* SideMenuTransition.swift */,
+				203089CABA969DE36CD077D452C99C9E /* UISideMenuNavigationController.swift */,
+				D78AB2D595393E3A791665036F9AA392 /* UITableViewVibrantCell.swift */,
+				2ADC29931CA01AFB10AC5F24F55806E8 /* Support Files */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DA77C4A9BC19A52C007FAC6349DB9E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D44EB4BC747ED2013F92AE14FD1C66 /* Pods-SmartFarmUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA521239E0A72B0F8724951C64FC59B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC99D84F8EEE7424EBDD07E10AE31C0 /* Pods-SmartFarm-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D4D5E7075ABE2284922273A05397AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263D2D90EA37BCC2FCF8CDDD74564231 /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B9B50AD28A09C196B7F872BE6F5367 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FBE003FE63CDCCB9F55AD69D391594 /* Pods-SmartFarmTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2DEC1742636F7561676AF597AA36720A /* Pods-SmartFarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E02FA4ADA3DD5565FB64193267A659D /* Build configuration list for PBXNativeTarget "Pods-SmartFarmUITests" */;
+			buildPhases = (
+				3DA77C4A9BC19A52C007FAC6349DB9E3 /* Headers */,
+				749698A21206AB1BB653E84723F6E380 /* Sources */,
+				5D85AE22C5868A2BD99E0F939402681F /* Frameworks */,
+				A8E1C70D88581464A271EE7493B8B0CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16DB4BB7ACFEACE3E3E963760A6446E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartFarmUITests";
+			productName = "Pods-SmartFarmUITests";
+			productReference = 15403B4FC50E652A224C264D1CB5C440 /* Pods_SmartFarmUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		570D56610D5F55DBE9C77C523C3AC526 /* Pods-SmartFarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B4190B1F64F21E38C1A1E23E74FB5BB /* Build configuration list for PBXNativeTarget "Pods-SmartFarm" */;
+			buildPhases = (
+				5BA521239E0A72B0F8724951C64FC59B /* Headers */,
+				4516732641F8827F02998506A5353223 /* Sources */,
+				78DC25EF8167812853ED77E1C142EB64 /* Frameworks */,
+				C363D5C4C6DB21B1E94A1EE6F95E98B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C6A640826920D259CA7574112F43F72 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartFarm";
+			productName = "Pods-SmartFarm";
+			productReference = 65AD4B4E6AB2ABEB94E764DF1C0C3F5F /* Pods_SmartFarm.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		599551BB0F33AC2C87B604991017479E /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5941B7B46A3357E528F42CD644E4C4D /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				C8D4D5E7075ABE2284922273A05397AD /* Headers */,
+				148518F22B82EC05BA5581707A958B0C /* Sources */,
+				70D5927816B64F8F8F00C366FC7E2858 /* Frameworks */,
+				10AAEEA66E6DD3D18B043D539DB75782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = C66D9D70A9035CF0C5861FB0C683FE4E /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60CB064E45A54300181755817B41263D /* Pods-SmartFarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4DED0F36D3DF1DFDEC2BB79B21FD2C /* Build configuration list for PBXNativeTarget "Pods-SmartFarmTests" */;
+			buildPhases = (
+				D9B9B50AD28A09C196B7F872BE6F5367 /* Headers */,
+				506507D653314C4FAF6018C2AEE2A574 /* Sources */,
+				C605A16675DA83906B1FB83E8E33D063 /* Frameworks */,
+				A6F3A26C3462921AA3E413FA3172363F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A263DEEA7B9FC3861620FE6A721ED1ED /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartFarmTests";
+			productName = "Pods-SmartFarmTests";
+			productReference = 6511CE752B080D90E6B777EE4A307941 /* Pods_SmartFarmTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E99A85DE41BC90906B3C42AAB6715B89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				570D56610D5F55DBE9C77C523C3AC526 /* Pods-SmartFarm */,
+				60CB064E45A54300181755817B41263D /* Pods-SmartFarmTests */,
+				2DEC1742636F7561676AF597AA36720A /* Pods-SmartFarmUITests */,
+				599551BB0F33AC2C87B604991017479E /* SideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10AAEEA66E6DD3D18B043D539DB75782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F3A26C3462921AA3E413FA3172363F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8E1C70D88581464A271EE7493B8B0CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C363D5C4C6DB21B1E94A1EE6F95E98B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		148518F22B82EC05BA5581707A958B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05445B5429189BA7093BB46C27EB256 /* SideMenu-dummy.m in Sources */,
+				F7856BD0DFDCA6AD31AE0324BC980E4C /* SideMenuManager.swift in Sources */,
+				9D716368C27C8CD5FF2BE88F7EFFBA0B /* SideMenuTransition.swift in Sources */,
+				451072AE28C51B00E397A7C6509A4AEF /* UISideMenuNavigationController.swift in Sources */,
+				C71DF0839445D283D166F744ACA4A001 /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4516732641F8827F02998506A5353223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E809791A6FBC9FC251D8C423E08144 /* Pods-SmartFarm-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506507D653314C4FAF6018C2AEE2A574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8F45CCBDE6A6DC54F4F73A6571643C /* Pods-SmartFarmTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749698A21206AB1BB653E84723F6E380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1962FF4A4701E0522B46097C1F0B8A79 /* Pods-SmartFarmUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16DB4BB7ACFEACE3E3E963760A6446E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmartFarm";
+			target = 570D56610D5F55DBE9C77C523C3AC526 /* Pods-SmartFarm */;
+			targetProxy = 33BA6AD365D38059FAE591FC7F188B48 /* PBXContainerItemProxy */;
+		};
+		9C6A640826920D259CA7574112F43F72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = 599551BB0F33AC2C87B604991017479E /* SideMenu */;
+			targetProxy = 90DE184BFE2AC88CE5CC49AE315D9665 /* PBXContainerItemProxy */;
+		};
+		A263DEEA7B9FC3861620FE6A721ED1ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmartFarm";
+			target = 570D56610D5F55DBE9C77C523C3AC526 /* Pods-SmartFarm */;
+			targetProxy = 430D722C8D5C86E998DA97874024F1B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		195CA5BCBC7BFAA54917FC0B6068CFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B292EC938B67CFBDB8D31053CF7CE813 /* Pods-SmartFarmTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartFarmTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartFarmTests/Pods-SmartFarmTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		411522687FB8DA5C9F0B4CFC82669407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A961DBD07ED0CD8CEBD10033004F6FD1 /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FC7B8135FDED1560A80CA98EC6F7207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8278A3A35AB6F05D3A39B3F80FF3FE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FC8E36E18E872F6632A4FD1488DA3A /* Pods-SmartFarmUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartFarmUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartFarmUITests/Pods-SmartFarmUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8463ED6CA622F3BCF5D682BCB51ECF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F577BC7A65249E506E2D5BAE7800ED /* Pods-SmartFarmUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartFarmUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartFarmUITests/Pods-SmartFarmUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A82E2C1A41984DEDEB12EE446CFFEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A961DBD07ED0CD8CEBD10033004F6FD1 /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7BCDDEEA5AC11574BEB01BAA248CD1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1818838FF757D9179CA413EA3604B25E /* Pods-SmartFarmTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartFarmTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartFarmTests/Pods-SmartFarmTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4A339C5C9837FC180FD2D276CBB365A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C3380988D4DA1F427F488A35F629E3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC04291BA127F1C4215127040334AFE5 /* Pods-SmartFarm.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartFarm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartFarm/Pods-SmartFarm.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBF79D0650169F17C7F1A67974383E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E32EA53BE564E566A1DCC2A373400C15 /* Pods-SmartFarm.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartFarm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartFarm/Pods-SmartFarm.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A339C5C9837FC180FD2D276CBB365A /* Debug */,
+				7FC7B8135FDED1560A80CA98EC6F7207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E02FA4ADA3DD5565FB64193267A659D /* Build configuration list for PBXNativeTarget "Pods-SmartFarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8463ED6CA622F3BCF5D682BCB51ECF0E /* Debug */,
+				8278A3A35AB6F05D3A39B3F80FF3FE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B4190B1F64F21E38C1A1E23E74FB5BB /* Build configuration list for PBXNativeTarget "Pods-SmartFarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF79D0650169F17C7F1A67974383E70 /* Debug */,
+				C3380988D4DA1F427F488A35F629E3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4DED0F36D3DF1DFDEC2BB79B21FD2C /* Build configuration list for PBXNativeTarget "Pods-SmartFarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BCDDEEA5AC11574BEB01BAA248CD1D /* Debug */,
+				195CA5BCBC7BFAA54917FC0B6068CFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5941B7B46A3357E528F42CD644E4C4D /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411522687FB8DA5C9F0B4CFC82669407 /* Debug */,
+				8A82E2C1A41984DEDEB12EE446CFFEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
