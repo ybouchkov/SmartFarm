@@ -7,7 +7,7 @@ opt_in_rules:
   - operator_usage_whitespace
   - redundant_nil_coalescing
   - unneeded_parentheses_in_closure_argument
-
+  
   #Opt_in rules
   - array_init
   - closure_end_indentation

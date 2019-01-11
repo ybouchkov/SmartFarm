@@ -12,6 +12,7 @@ import UIKit
 enum Storyboard: String {
     
     case main
+    case menu
     
     var fileName: String {
         return rawValue.capitalizingFirstLetter()
@@ -23,6 +24,7 @@ enum Storyboard: String {
     
     func viewController<T: UIViewController>(from viewControllerClass: T.Type) -> T {
         let storyboardID = (viewControllerClass as UIViewController.Type).storyboardID
+        // swiftlint:disable force_cast
         return instance.instantiateViewController(withIdentifier: storyboardID) as! T
     }
     

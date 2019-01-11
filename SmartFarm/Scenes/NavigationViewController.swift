@@ -25,5 +25,4 @@ class NavigationViewController: UINavigationController {
     private func setupNavigation() {
         
     }
-
 }

@@ -19,6 +19,16 @@
 		268300B821E881D4009C1590 /* Arsenal-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268300B421E881D4009C1590 /* Arsenal-BoldItalic.ttf */; };
 		268300B921E881D4009C1590 /* Arsenal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268300B521E881D4009C1590 /* Arsenal-Regular.ttf */; };
 		268300BB21E8823F009C1590 /* UIFont + Arsenal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300BA21E8823F009C1590 /* UIFont + Arsenal.swift */; };
+		268300BE21E885ED009C1590 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300BD21E885ED009C1590 /* SideMenuViewController.swift */; };
+		268300C021E8867A009C1590 /* SideMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300BF21E8867A009C1590 /* SideMenuConfiguration.swift */; };
+		268300C221E88735009C1590 /* SideMenuInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300C121E88735009C1590 /* SideMenuInteractor.swift */; };
+		268300C421E88774009C1590 /* SideMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300C321E88774009C1590 /* SideMenuPresenter.swift */; };
+		268300C621E887B8009C1590 /* SideMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300C521E887B8009C1590 /* SideMenuRouter.swift */; };
+		268300C921E88C00009C1590 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268300C821E88C00009C1590 /* Menu.storyboard */; };
+		268300CB21E88C97009C1590 /* SideMenuItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300CA21E88C97009C1590 /* SideMenuItemViewModel.swift */; };
+		268300CD21E88CAF009C1590 /* SideMenuDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300CC21E88CAF009C1590 /* SideMenuDataProvider.swift */; };
+		268300CF21E88D24009C1590 /* SideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300CE21E88D24009C1590 /* SideMenuItem.swift */; };
+		268300D221E8906A009C1590 /* ListViewCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300D121E8906A009C1590 /* ListViewCompatible.swift */; };
 		26AE000421E78025009ED8CA /* CowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE000321E78025009ED8CA /* CowsViewController.swift */; };
 		26AE000721E7A6B6009ED8CA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 26AE000621E7A6B6009ED8CA /* README.md */; };
 		26AE000921E7AAA9009ED8CA /* CowsViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE000821E7AAA9009ED8CA /* CowsViewPresenter.swift */; };
@@ -65,6 +75,16 @@
 		268300B421E881D4009C1590 /* Arsenal-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arsenal-BoldItalic.ttf"; sourceTree = "<group>"; };
 		268300B521E881D4009C1590 /* Arsenal-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arsenal-Regular.ttf"; sourceTree = "<group>"; };
 		268300BA21E8823F009C1590 /* UIFont + Arsenal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Arsenal.swift"; sourceTree = "<group>"; };
+		268300BD21E885ED009C1590 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		268300BF21E8867A009C1590 /* SideMenuConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuConfiguration.swift; sourceTree = "<group>"; };
+		268300C121E88735009C1590 /* SideMenuInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuInteractor.swift; sourceTree = "<group>"; };
+		268300C321E88774009C1590 /* SideMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuPresenter.swift; sourceTree = "<group>"; };
+		268300C521E887B8009C1590 /* SideMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRouter.swift; sourceTree = "<group>"; };
+		268300C821E88C00009C1590 /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		268300CA21E88C97009C1590 /* SideMenuItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItemViewModel.swift; sourceTree = "<group>"; };
+		268300CC21E88CAF009C1590 /* SideMenuDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuDataProvider.swift; sourceTree = "<group>"; };
+		268300CE21E88D24009C1590 /* SideMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItem.swift; sourceTree = "<group>"; };
+		268300D121E8906A009C1590 /* ListViewCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCompatible.swift; sourceTree = "<group>"; };
 		26AE000321E78025009ED8CA /* CowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsViewController.swift; sourceTree = "<group>"; };
 		26AE000621E7A6B6009ED8CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26AE000821E7AAA9009ED8CA /* CowsViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsViewPresenter.swift; sourceTree = "<group>"; };
@@ -143,6 +163,36 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		268300BC21E885C7009C1590 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				268300BD21E885ED009C1590 /* SideMenuViewController.swift */,
+				268300BF21E8867A009C1590 /* SideMenuConfiguration.swift */,
+				268300C121E88735009C1590 /* SideMenuInteractor.swift */,
+				268300C321E88774009C1590 /* SideMenuPresenter.swift */,
+				268300C521E887B8009C1590 /* SideMenuRouter.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		268300C721E88A84009C1590 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				268300CA21E88C97009C1590 /* SideMenuItemViewModel.swift */,
+				268300CC21E88CAF009C1590 /* SideMenuDataProvider.swift */,
+				268300CE21E88D24009C1590 /* SideMenuItem.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		268300D021E89058009C1590 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				268300D121E8906A009C1590 /* ListViewCompatible.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		26AE000021E77F8B009ED8CA /* Internal */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				26AEFFD321E77C9B009ED8CA /* Main.storyboard */,
+				268300C821E88C00009C1590 /* Menu.storyboard */,
 				26AEFFD821E77C9D009ED8CA /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -213,6 +264,7 @@
 		26AEFFCE21E77C9B009ED8CA /* SmartFarm */ = {
 			isa = PBXGroup;
 			children = (
+				268300D021E89058009C1590 /* Protocols */,
 				268300A421E87BB7009C1590 /* DataProvider */,
 				26AE000221E7800A009ED8CA /* Extensions */,
 				26AEFFFE21E77F7E009ED8CA /* Models */,
@@ -244,6 +296,7 @@
 		26AEFFFD21E77F70009ED8CA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				268300BC21E885C7009C1590 /* SideMenu */,
 				26AE001021E7ABC8009ED8CA /* CowsScreen */,
 				268300A921E87C94009C1590 /* NavigationViewController.swift */,
 			);
@@ -253,6 +306,7 @@
 		26AEFFFE21E77F7E009ED8CA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				268300C721E88A84009C1590 /* SideMenu */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -392,6 +446,7 @@
 				26AEFFDA21E77C9D009ED8CA /* LaunchScreen.storyboard in Resources */,
 				268300B621E881D4009C1590 /* Arsenal-Bold.ttf in Resources */,
 				26AEFFD721E77C9D009ED8CA /* Assets.xcassets in Resources */,
+				268300C921E88C00009C1590 /* Menu.storyboard in Resources */,
 				26AE000721E7A6B6009ED8CA /* README.md in Resources */,
 				268300B921E881D4009C1590 /* Arsenal-Regular.ttf in Resources */,
 				26AEFFD521E77C9B009ED8CA /* Main.storyboard in Resources */,
@@ -538,11 +593,20 @@
 				26AE000921E7AAA9009ED8CA /* CowsViewPresenter.swift in Sources */,
 				26AEFFD021E77C9B009ED8CA /* AppDelegate.swift in Sources */,
 				268300A821E87BC6009C1590 /* DataProvider.swift in Sources */,
+				268300CF21E88D24009C1590 /* SideMenuItem.swift in Sources */,
+				268300CB21E88C97009C1590 /* SideMenuItemViewModel.swift in Sources */,
+				268300C021E8867A009C1590 /* SideMenuConfiguration.swift in Sources */,
+				268300C221E88735009C1590 /* SideMenuInteractor.swift in Sources */,
 				268300A721E87BC6009C1590 /* ArrayDataProvider.swift in Sources */,
 				268300AA21E87C94009C1590 /* NavigationViewController.swift in Sources */,
+				268300C421E88774009C1590 /* SideMenuPresenter.swift in Sources */,
 				268300B021E87DE3009C1590 /* UIViewController+.swift in Sources */,
+				268300C621E887B8009C1590 /* SideMenuRouter.swift in Sources */,
 				268300AC21E87D62009C1590 /* UIStoryboard+.swift in Sources */,
+				268300CD21E88CAF009C1590 /* SideMenuDataProvider.swift in Sources */,
 				268300AE21E87D7D009C1590 /* String+.swift in Sources */,
+				268300D221E8906A009C1590 /* ListViewCompatible.swift in Sources */,
+				268300BE21E885ED009C1590 /* SideMenuViewController.swift in Sources */,
 				26AE000D21E7AABE009ED8CA /* CowsViewInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
