@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0B2FB74029182E3892EF5D23 /* Pods_SmartFarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFCF6824CA4BA6C905FB717 /* Pods_SmartFarmUITests.framework */; };
+		268300A721E87BC6009C1590 /* ArrayDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300A521E87BC5009C1590 /* ArrayDataProvider.swift */; };
+		268300A821E87BC6009C1590 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300A621E87BC5009C1590 /* DataProvider.swift */; };
+		268300AA21E87C94009C1590 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300A921E87C94009C1590 /* NavigationViewController.swift */; };
+		268300AC21E87D62009C1590 /* UIStoryboard+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300AB21E87D62009C1590 /* UIStoryboard+.swift */; };
+		268300AE21E87D7D009C1590 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300AD21E87D7D009C1590 /* String+.swift */; };
+		268300B021E87DE3009C1590 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300AF21E87DE3009C1590 /* UIViewController+.swift */; };
+		268300B621E881D4009C1590 /* Arsenal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268300B221E881D3009C1590 /* Arsenal-Bold.ttf */; };
+		268300B721E881D4009C1590 /* Arsenal-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268300B321E881D3009C1590 /* Arsenal-Italic.ttf */; };
+		268300B821E881D4009C1590 /* Arsenal-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268300B421E881D4009C1590 /* Arsenal-BoldItalic.ttf */; };
+		268300B921E881D4009C1590 /* Arsenal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268300B521E881D4009C1590 /* Arsenal-Regular.ttf */; };
+		268300BB21E8823F009C1590 /* UIFont + Arsenal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300BA21E8823F009C1590 /* UIFont + Arsenal.swift */; };
 		26AE000421E78025009ED8CA /* CowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE000321E78025009ED8CA /* CowsViewController.swift */; };
 		26AE000721E7A6B6009ED8CA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 26AE000621E7A6B6009ED8CA /* README.md */; };
 		26AE000921E7AAA9009ED8CA /* CowsViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE000821E7AAA9009ED8CA /* CowsViewPresenter.swift */; };
@@ -43,6 +54,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		268300A521E87BC5009C1590 /* ArrayDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataProvider.swift; sourceTree = "<group>"; };
+		268300A621E87BC5009C1590 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		268300A921E87C94009C1590 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		268300AB21E87D62009C1590 /* UIStoryboard+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+.swift"; sourceTree = "<group>"; };
+		268300AD21E87D7D009C1590 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		268300AF21E87DE3009C1590 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		268300B221E881D3009C1590 /* Arsenal-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arsenal-Bold.ttf"; sourceTree = "<group>"; };
+		268300B321E881D3009C1590 /* Arsenal-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arsenal-Italic.ttf"; sourceTree = "<group>"; };
+		268300B421E881D4009C1590 /* Arsenal-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arsenal-BoldItalic.ttf"; sourceTree = "<group>"; };
+		268300B521E881D4009C1590 /* Arsenal-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arsenal-Regular.ttf"; sourceTree = "<group>"; };
+		268300BA21E8823F009C1590 /* UIFont + Arsenal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Arsenal.swift"; sourceTree = "<group>"; };
 		26AE000321E78025009ED8CA /* CowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsViewController.swift; sourceTree = "<group>"; };
 		26AE000621E7A6B6009ED8CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26AE000821E7AAA9009ED8CA /* CowsViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsViewPresenter.swift; sourceTree = "<group>"; };
@@ -101,9 +123,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		268300A421E87BB7009C1590 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				268300A521E87BC5009C1590 /* ArrayDataProvider.swift */,
+				268300A621E87BC5009C1590 /* DataProvider.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		268300B121E881BF009C1590 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				268300B221E881D3009C1590 /* Arsenal-Bold.ttf */,
+				268300B421E881D4009C1590 /* Arsenal-BoldItalic.ttf */,
+				268300B321E881D3009C1590 /* Arsenal-Italic.ttf */,
+				268300B521E881D4009C1590 /* Arsenal-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		26AE000021E77F8B009ED8CA /* Internal */ = {
 			isa = PBXGroup;
 			children = (
+				268300B121E881BF009C1590 /* Font */,
 				26AEFFCF21E77C9B009ED8CA /* AppDelegate.swift */,
 				26AEFFD621E77C9D009ED8CA /* Assets.xcassets */,
 				26AEFFDB21E77C9D009ED8CA /* Info.plist */,
@@ -123,6 +166,10 @@
 		26AE000221E7800A009ED8CA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				268300AB21E87D62009C1590 /* UIStoryboard+.swift */,
+				268300AD21E87D7D009C1590 /* String+.swift */,
+				268300AF21E87DE3009C1590 /* UIViewController+.swift */,
+				268300BA21E8823F009C1590 /* UIFont + Arsenal.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -166,6 +213,7 @@
 		26AEFFCE21E77C9B009ED8CA /* SmartFarm */ = {
 			isa = PBXGroup;
 			children = (
+				268300A421E87BB7009C1590 /* DataProvider */,
 				26AE000221E7800A009ED8CA /* Extensions */,
 				26AEFFFE21E77F7E009ED8CA /* Models */,
 				26AEFFFD21E77F70009ED8CA /* Scenes */,
@@ -197,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				26AE001021E7ABC8009ED8CA /* CowsScreen */,
+				268300A921E87C94009C1590 /* NavigationViewController.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -341,9 +390,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				26AEFFDA21E77C9D009ED8CA /* LaunchScreen.storyboard in Resources */,
+				268300B621E881D4009C1590 /* Arsenal-Bold.ttf in Resources */,
 				26AEFFD721E77C9D009ED8CA /* Assets.xcassets in Resources */,
 				26AE000721E7A6B6009ED8CA /* README.md in Resources */,
+				268300B921E881D4009C1590 /* Arsenal-Regular.ttf in Resources */,
 				26AEFFD521E77C9B009ED8CA /* Main.storyboard in Resources */,
+				268300B721E881D4009C1590 /* Arsenal-Italic.ttf in Resources */,
+				268300B821E881D4009C1590 /* Arsenal-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,9 +533,16 @@
 				26AE000B21E7AAB3009ED8CA /* CowsViewWorker.swift in Sources */,
 				26AE000F21E7AAD0009ED8CA /* CowsViewRouter.swift in Sources */,
 				26AE001221E7ABEB009ED8CA /* CowsViewConfiguration.swift in Sources */,
+				268300BB21E8823F009C1590 /* UIFont + Arsenal.swift in Sources */,
 				26AE000421E78025009ED8CA /* CowsViewController.swift in Sources */,
 				26AE000921E7AAA9009ED8CA /* CowsViewPresenter.swift in Sources */,
 				26AEFFD021E77C9B009ED8CA /* AppDelegate.swift in Sources */,
+				268300A821E87BC6009C1590 /* DataProvider.swift in Sources */,
+				268300A721E87BC6009C1590 /* ArrayDataProvider.swift in Sources */,
+				268300AA21E87C94009C1590 /* NavigationViewController.swift in Sources */,
+				268300B021E87DE3009C1590 /* UIViewController+.swift in Sources */,
+				268300AC21E87D62009C1590 /* UIStoryboard+.swift in Sources */,
+				268300AE21E87D7D009C1590 /* String+.swift in Sources */,
 				26AE000D21E7AABE009ED8CA /* CowsViewInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
