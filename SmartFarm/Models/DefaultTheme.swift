@@ -21,4 +21,8 @@ class DefaultTheme: Theme {
     var navigationBarTranslucent: Bool {
         return false
     }
+    
+    var navigationTitleFont: UIFont {
+        return UIFont.navigationTitleFont
+    }
 }

@@ -31,7 +31,7 @@
 		268300D221E8906A009C1590 /* ListViewCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300D121E8906A009C1590 /* ListViewCompatible.swift */; };
 		268300D521E89727009C1590 /* LogoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300D421E89727009C1590 /* LogoTableViewCell.swift */; };
 		268300D821E89813009C1590 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300D721E89813009C1590 /* Helpers.swift */; };
-		268300DA21E89AFF009C1590 /* UIFont + IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300D921E89AFF009C1590 /* UIFont + IconFont.swift */; };
+		268300DA21E89AFF009C1590 /* UIFont + AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300D921E89AFF009C1590 /* UIFont + AppFonts.swift */; };
 		268300DC21E8DDE3009C1590 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300DB21E8DDE3009C1590 /* UIColor+.swift */; };
 		268300DE21E8E7C7009C1590 /* Cows.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268300DD21E8E7C7009C1590 /* Cows.storyboard */; };
 		26AE000421E78025009ED8CA /* CowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE000321E78025009ED8CA /* CowsViewController.swift */; };
@@ -94,7 +94,7 @@
 		268300D121E8906A009C1590 /* ListViewCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCompatible.swift; sourceTree = "<group>"; };
 		268300D421E89727009C1590 /* LogoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTableViewCell.swift; sourceTree = "<group>"; };
 		268300D721E89813009C1590 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		268300D921E89AFF009C1590 /* UIFont + IconFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + IconFont.swift"; sourceTree = "<group>"; };
+		268300D921E89AFF009C1590 /* UIFont + AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + AppFonts.swift"; sourceTree = "<group>"; };
 		268300DB21E8DDE3009C1590 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		268300DD21E8E7C7009C1590 /* Cows.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cows.storyboard; sourceTree = "<group>"; };
 		26AE000321E78025009ED8CA /* CowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsViewController.swift; sourceTree = "<group>"; };
@@ -253,7 +253,7 @@
 				268300AF21E87DE3009C1590 /* UIViewController+.swift */,
 				268300BA21E8823F009C1590 /* UIFont + Arsenal.swift */,
 				268300D721E89813009C1590 /* Helpers.swift */,
-				268300D921E89AFF009C1590 /* UIFont + IconFont.swift */,
+				268300D921E89AFF009C1590 /* UIFont + AppFonts.swift */,
 				268300DB21E8DDE3009C1590 /* UIColor+.swift */,
 			);
 			path = Extensions;
@@ -653,7 +653,7 @@
 				268300B021E87DE3009C1590 /* UIViewController+.swift in Sources */,
 				268300C621E887B8009C1590 /* SideMenuRouter.swift in Sources */,
 				268300AC21E87D62009C1590 /* UIStoryboard+.swift in Sources */,
-				268300DA21E89AFF009C1590 /* UIFont + IconFont.swift in Sources */,
+				268300DA21E89AFF009C1590 /* UIFont + AppFonts.swift in Sources */,
 				268300CD21E88CAF009C1590 /* SideMenuDataProvider.swift in Sources */,
 				268300AE21E87D7D009C1590 /* String+.swift in Sources */,
 				268300D221E8906A009C1590 /* ListViewCompatible.swift in Sources */,

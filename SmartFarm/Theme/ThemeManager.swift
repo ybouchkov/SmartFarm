@@ -22,6 +22,7 @@ final class ThemeManager {
         }
     }
     
+    // MARK: - Apply Theme
     public func applyTheme() {
         let navigationBar = UINavigationBar.appearance()
         navigationBar.barTintColor = theme.navigationColour
@@ -29,7 +30,8 @@ final class ThemeManager {
         navigationBar.isTranslucent = theme.navigationBarTranslucent
         navigationBar.barStyle = .blackTranslucent
         navigationBar.titleTextAttributes = [
-            NSAttributedString.Key.foregroundColor: theme.navigationTitleColour
+            NSAttributedString.Key.foregroundColor: theme.navigationTitleColour,
+            NSAttributedString.Key.font: theme.navigationTitleFont
         ]
         
         listeners.allObjects.forEach { $0.style(with: theme) }
@@ -65,4 +67,5 @@ protocol Theme {
     var navigationColour: UIColor { get }
     var navigationTitleColour: UIColor { get }
     var navigationBarTranslucent: Bool { get }
+    var navigationTitleFont: UIFont { get }
 }

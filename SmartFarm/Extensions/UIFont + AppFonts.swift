@@ -6,4 +6,11 @@
 //  Copyright © 2019 Yani Buchkov. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIFont {
+    
+    static var navigationTitleFont: UIFont {
+        return Arsenal.bold.of(size: 19.0)
+    }
+}
