@@ -22,6 +22,9 @@ class CowsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Крави"
+        setNeedsStatusBarAppearanceUpdate()
+        lineNavigationItems()
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
@@ -40,5 +43,9 @@ class CowsViewController: UIViewController {
     private func setup() {
         
         CowsViewConfiguration.shared.configurate(viewController: self)
+    }
+    
+    private func lineNavigationItems() {
+        self.navigationItem.leftBarButtonItem = menuBarButtoItem
     }
 }

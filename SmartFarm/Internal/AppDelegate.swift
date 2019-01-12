@@ -17,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UIViewController.swizzleViewDidLoad()
         
+        // NOTE: Apply theme
+        ThemeManager.shared.applyTheme()
+        
         return true
     }
 }

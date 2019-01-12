@@ -29,6 +29,11 @@
 		268300CD21E88CAF009C1590 /* SideMenuDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300CC21E88CAF009C1590 /* SideMenuDataProvider.swift */; };
 		268300CF21E88D24009C1590 /* SideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300CE21E88D24009C1590 /* SideMenuItem.swift */; };
 		268300D221E8906A009C1590 /* ListViewCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300D121E8906A009C1590 /* ListViewCompatible.swift */; };
+		268300D521E89727009C1590 /* LogoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300D421E89727009C1590 /* LogoTableViewCell.swift */; };
+		268300D821E89813009C1590 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300D721E89813009C1590 /* Helpers.swift */; };
+		268300DA21E89AFF009C1590 /* UIFont + IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300D921E89AFF009C1590 /* UIFont + IconFont.swift */; };
+		268300DC21E8DDE3009C1590 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300DB21E8DDE3009C1590 /* UIColor+.swift */; };
+		268300DE21E8E7C7009C1590 /* Cows.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268300DD21E8E7C7009C1590 /* Cows.storyboard */; };
 		26AE000421E78025009ED8CA /* CowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE000321E78025009ED8CA /* CowsViewController.swift */; };
 		26AE000721E7A6B6009ED8CA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 26AE000621E7A6B6009ED8CA /* README.md */; };
 		26AE000921E7AAA9009ED8CA /* CowsViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE000821E7AAA9009ED8CA /* CowsViewPresenter.swift */; };
@@ -42,6 +47,8 @@
 		26AEFFDA21E77C9D009ED8CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AEFFD821E77C9D009ED8CA /* LaunchScreen.storyboard */; };
 		26AEFFE521E77C9D009ED8CA /* SmartFarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFE421E77C9D009ED8CA /* SmartFarmTests.swift */; };
 		26AEFFF021E77C9D009ED8CA /* SmartFarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFEF21E77C9D009ED8CA /* SmartFarmUITests.swift */; };
+		26F4824C21EA87A800587093 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4824B21EA87A800587093 /* ThemeManager.swift */; };
+		26F4824E21EA89C100587093 /* DefaultTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4824D21EA89C100587093 /* DefaultTheme.swift */; };
 		50B5B2A2C29F4B59FBD528B8 /* Pods_SmartFarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA23B32482A51141E09B127 /* Pods_SmartFarmTests.framework */; };
 		E8CF601CC81E26457D2D5DA1 /* Pods_SmartFarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE31C6D90CA96F5DC57C77DB /* Pods_SmartFarm.framework */; };
 /* End PBXBuildFile section */
@@ -85,6 +92,11 @@
 		268300CC21E88CAF009C1590 /* SideMenuDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuDataProvider.swift; sourceTree = "<group>"; };
 		268300CE21E88D24009C1590 /* SideMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItem.swift; sourceTree = "<group>"; };
 		268300D121E8906A009C1590 /* ListViewCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCompatible.swift; sourceTree = "<group>"; };
+		268300D421E89727009C1590 /* LogoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTableViewCell.swift; sourceTree = "<group>"; };
+		268300D721E89813009C1590 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		268300D921E89AFF009C1590 /* UIFont + IconFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + IconFont.swift"; sourceTree = "<group>"; };
+		268300DB21E8DDE3009C1590 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		268300DD21E8E7C7009C1590 /* Cows.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cows.storyboard; sourceTree = "<group>"; };
 		26AE000321E78025009ED8CA /* CowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsViewController.swift; sourceTree = "<group>"; };
 		26AE000621E7A6B6009ED8CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26AE000821E7AAA9009ED8CA /* CowsViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsViewPresenter.swift; sourceTree = "<group>"; };
@@ -104,6 +116,8 @@
 		26AEFFEB21E77C9D009ED8CA /* SmartFarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AEFFEF21E77C9D009ED8CA /* SmartFarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFarmUITests.swift; sourceTree = "<group>"; };
 		26AEFFF121E77C9D009ED8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F4824B21EA87A800587093 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		26F4824D21EA89C100587093 /* DefaultTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTheme.swift; sourceTree = "<group>"; };
 		308609B5FBE92A29769AD2D4 /* Pods-SmartFarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFarmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartFarmUITests/Pods-SmartFarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BFCF6824CA4BA6C905FB717 /* Pods_SmartFarmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartFarmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA8715B4B2F3000C2753C56 /* Pods-SmartFarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFarmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartFarmUITests/Pods-SmartFarmUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,6 +207,22 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		268300D321E894E1009C1590 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				268300D621E8972B009C1590 /* SideMenu */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		268300D621E8972B009C1590 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				268300D421E89727009C1590 /* LogoTableViewCell.swift */,
+			);
+			name = SideMenu;
+			sourceTree = "<group>";
+		};
 		26AE000021E77F8B009ED8CA /* Internal */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +240,7 @@
 				26AEFFD321E77C9B009ED8CA /* Main.storyboard */,
 				268300C821E88C00009C1590 /* Menu.storyboard */,
 				26AEFFD821E77C9D009ED8CA /* LaunchScreen.storyboard */,
+				268300DD21E8E7C7009C1590 /* Cows.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -221,6 +252,9 @@
 				268300AD21E87D7D009C1590 /* String+.swift */,
 				268300AF21E87DE3009C1590 /* UIViewController+.swift */,
 				268300BA21E8823F009C1590 /* UIFont + Arsenal.swift */,
+				268300D721E89813009C1590 /* Helpers.swift */,
+				268300D921E89AFF009C1590 /* UIFont + IconFont.swift */,
+				268300DB21E8DDE3009C1590 /* UIColor+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -264,11 +298,13 @@
 		26AEFFCE21E77C9B009ED8CA /* SmartFarm */ = {
 			isa = PBXGroup;
 			children = (
+				26F4824A21EA876B00587093 /* Theme */,
 				268300D021E89058009C1590 /* Protocols */,
 				268300A421E87BB7009C1590 /* DataProvider */,
 				26AE000221E7800A009ED8CA /* Extensions */,
 				26AEFFFE21E77F7E009ED8CA /* Models */,
 				26AEFFFD21E77F70009ED8CA /* Scenes */,
+				268300D321E894E1009C1590 /* Views */,
 				26AE000121E77FA4009ED8CA /* Storyboards */,
 				26AE000021E77F8B009ED8CA /* Internal */,
 			);
@@ -307,8 +343,17 @@
 			isa = PBXGroup;
 			children = (
 				268300C721E88A84009C1590 /* SideMenu */,
+				26F4824D21EA89C100587093 /* DefaultTheme.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		26F4824A21EA876B00587093 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				26F4824B21EA87A800587093 /* ThemeManager.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 		BB1E0B6AC3E6E2563D835A09 /* Pods */ = {
@@ -443,6 +488,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268300DE21E8E7C7009C1590 /* Cows.storyboard in Resources */,
 				26AEFFDA21E77C9D009ED8CA /* LaunchScreen.storyboard in Resources */,
 				268300B621E881D4009C1590 /* Arsenal-Bold.ttf in Resources */,
 				26AEFFD721E77C9D009ED8CA /* Assets.xcassets in Resources */,
@@ -596,18 +642,24 @@
 				268300CF21E88D24009C1590 /* SideMenuItem.swift in Sources */,
 				268300CB21E88C97009C1590 /* SideMenuItemViewModel.swift in Sources */,
 				268300C021E8867A009C1590 /* SideMenuConfiguration.swift in Sources */,
+				26F4824E21EA89C100587093 /* DefaultTheme.swift in Sources */,
 				268300C221E88735009C1590 /* SideMenuInteractor.swift in Sources */,
 				268300A721E87BC6009C1590 /* ArrayDataProvider.swift in Sources */,
+				268300D821E89813009C1590 /* Helpers.swift in Sources */,
 				268300AA21E87C94009C1590 /* NavigationViewController.swift in Sources */,
+				268300D521E89727009C1590 /* LogoTableViewCell.swift in Sources */,
 				268300C421E88774009C1590 /* SideMenuPresenter.swift in Sources */,
+				268300DC21E8DDE3009C1590 /* UIColor+.swift in Sources */,
 				268300B021E87DE3009C1590 /* UIViewController+.swift in Sources */,
 				268300C621E887B8009C1590 /* SideMenuRouter.swift in Sources */,
 				268300AC21E87D62009C1590 /* UIStoryboard+.swift in Sources */,
+				268300DA21E89AFF009C1590 /* UIFont + IconFont.swift in Sources */,
 				268300CD21E88CAF009C1590 /* SideMenuDataProvider.swift in Sources */,
 				268300AE21E87D7D009C1590 /* String+.swift in Sources */,
 				268300D221E8906A009C1590 /* ListViewCompatible.swift in Sources */,
 				268300BE21E885ED009C1590 /* SideMenuViewController.swift in Sources */,
 				26AE000D21E7AABE009ED8CA /* CowsViewInteractor.swift in Sources */,
+				26F4824C21EA87A800587093 /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,7 +846,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YaniBF.SmartFarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -814,7 +866,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YaniBF.SmartFarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

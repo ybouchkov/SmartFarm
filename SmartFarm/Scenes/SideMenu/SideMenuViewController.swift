@@ -14,17 +14,15 @@ protocol SideMenuDisplayLogic {
     func displayMenuItems()
 }
 
-class SideMenuViewController: UIViewController, SideMenuDisplayLogic {
+class SideMenuViewController: UITableViewController, SideMenuDisplayLogic {
     
     // MARK: - Properties & IBOutlets
-    
-    @IBOutlet private weak var tableView: UITableView!
     
     public var router: SideMenuNavigationLogic?
     public var interactor: SideMenuBuisnessLogic?
     
+    var menuProvider = SideMenuDataProvider(rows: [])
     
-
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
@@ -54,5 +52,32 @@ class SideMenuViewController: UIViewController, SideMenuDisplayLogic {
     
     private func setup() {
         SideMenuConfiguration.shared.config(viewController: self)
+    }
+}
+
+// MARK: - UITableViewDataSource
+
+extension SideMenuViewController {
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return menuProvider.numberOfSections()
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return menuProvider.numberOfItems(in: section)
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return UITableViewCell()
+    }
+}
+
+// MARK: - UITableViewController
+
+extension SideMenuViewController {
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        // use router here ...
     }
 }

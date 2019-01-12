@@ -10,7 +10,7 @@ import Foundation
 
 protocol SideMenuPresentationLogic {
     
-    func presentItems()
+    func presentMenuItems(response: SideMenuItemResponse)
 }
 
 class SideMenuPresenter: SideMenuPresentationLogic {
@@ -21,7 +21,7 @@ class SideMenuPresenter: SideMenuPresentationLogic {
     
     // MARK: - SideMenuPresentationLogic
     
-    func presentItems() {
+    func presentMenuItems(response: SideMenuItemResponse) {
         
     }
 }

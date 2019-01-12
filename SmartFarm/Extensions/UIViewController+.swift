@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SideMenu
 
 extension UIViewController {
     
@@ -34,6 +35,7 @@ extension UIViewController {
                                                            style: .plain,
                                                            target: nil,
                                                            action: nil)
+        
     }
     
     static func swizzleViewDidLoad() {
@@ -50,5 +52,26 @@ extension UIViewController {
             let swizzledMethod = class_getInstanceMethod(self, swizzledSelector)
             method_exchangeImplementations(originalMethod!, swizzledMethod!)
         }()
+    }
+    
+    /// Custom hamburger menu btn
+    var menuBarButtoItem: UIBarButtonItem {
+        let button = UIButton(type: .custom)
+        button.setImage(#imageLiteral(resourceName: "menu"), for: .normal)
+        button.addTarget(self,
+                         action: #selector(menuBtnPressed),
+                         for: .touchUpInside)
+        return UIBarButtonItem(customView: button)
+    }
+    
+    // MARK: - Actions
+    @objc
+    fileprivate func menuBtnPressed() {
+        guard let menuLeftNavigationController = SideMenuManager.default.menuLeftNavigationController else {
+            return
+        }
+        present(menuLeftNavigationController,
+                animated: true,
+                completion: nil)
     }
 }

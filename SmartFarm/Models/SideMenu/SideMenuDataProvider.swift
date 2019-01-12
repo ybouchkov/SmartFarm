@@ -8,4 +8,9 @@
 
 import Foundation
 
+struct SideMenuItemResponse {
+    
+    var actions: [SideMenuActionType]
+}
+
 final class SideMenuDataProvider: ArrayDataProvider<SideMenuItemViewModel> {}
