@@ -11,7 +11,7 @@ import SideMenu
 
 protocol SideMenuDisplayLogic {
     
-    func displayMenuItems()
+    func displayMenuItems(items: [SideMenuItemViewModel])
 }
 
 class SideMenuViewController: UITableViewController, SideMenuDisplayLogic {
@@ -27,7 +27,8 @@ class SideMenuViewController: UITableViewController, SideMenuDisplayLogic {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        prepareItems()
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
@@ -44,8 +45,14 @@ class SideMenuViewController: UITableViewController, SideMenuDisplayLogic {
     
     // MARK: - SideMenuDisplayLogic
     
-    func displayMenuItems() {
-        
+    func displayMenuItems(items: [SideMenuItemViewModel]) {
+        self.menuProvider.update(rows: items)
+        tableView.reloadData()
+    }
+    
+    private func prepareItems() {
+        interactor?.prepareItems()
+        tableView.tableFooterView = UIView() // empty rows at the end
     }
     
     // MARK: - Setup
@@ -68,7 +75,17 @@ extension SideMenuViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let viewModel = menuProvider[indexPath]
+        guard let reuseIdentifier = viewModel?.reuseIdentifier else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) else {
+            fatalError("Slide Menu Cell Not Found -- ReuseIdentifier: \(reuseIdentifier)")
+        }
+        guard let configurableCell = cell as? SideMenuItemConfigurable else {
+            fatalError("Slide Menu Cell Must Be SlideMenuItemConfigurable")
+        }
+        
+        configurableCell.configure(item: viewModel!)
+        return cell
     }
 }
 

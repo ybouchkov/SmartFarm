@@ -12,9 +12,10 @@ protocol CowsViewDisplayLogic {
     // display logic here
 }
 
-class CowsViewController: UIViewController {
+class CowsViewController: UIViewController, CowsViewDisplayLogic {
 
     // MARK: - Properties & IBOutlets
+    
     var interactor: CowsViewBuisnessLogic?
     var router: CowsViewNavigationLogic?
     
@@ -22,8 +23,8 @@ class CowsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.title = "Крави"
-        setNeedsStatusBarAppearanceUpdate()
         lineNavigationItems()
     }
     

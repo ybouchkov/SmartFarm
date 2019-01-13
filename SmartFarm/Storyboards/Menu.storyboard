@@ -13,43 +13,44 @@
         <scene sceneID="VXQ-nw-M0o">
             <objects>
                 <tableViewController storyboardIdentifier="SideMenuViewController" id="m4r-Ta-dp2" customClass="SideMenuViewController" customModule="SmartFarm" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="daH-zR-Iv3">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="daH-zR-Iv3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="logoCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LogoTableViewCell" rowHeight="205" id="flJ-km-e8X" customClass="LogoTableViewCell" customModule="SmartFarm" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="205"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="LogoTableViewCell" rowHeight="202" id="flJ-km-e8X" customClass="LogoTableViewCell" customModule="SmartFarm" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="202"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="flJ-km-e8X" id="aYO-np-6i9">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="204.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="202"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rVI-p2-JeF">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="204.5"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JN9-iu-cOF">
-                                                    <rect key="frame" x="0.0" y="0.0" width="290.5" height="204.5"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hkc-WR-M9L">
-                                                    <rect key="frame" x="290.5" y="0.0" width="84.5" height="204.5"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </stackView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDv-pp-Hj5">
+                                            <rect key="frame" x="16" y="0.0" width="343" height="47"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="igM-zX-oGt">
+                                            <rect key="frame" x="102.5" y="47" width="170" height="105"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="105" id="3yo-cB-if0"/>
+                                                <constraint firstAttribute="width" constant="170" id="HkN-Ch-Ceg"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="rVI-p2-JeF" secondAttribute="bottom" id="9rg-ey-RR9"/>
-                                        <constraint firstItem="rVI-p2-JeF" firstAttribute="top" secondItem="aYO-np-6i9" secondAttribute="top" id="K90-ey-ctQ"/>
-                                        <constraint firstItem="rVI-p2-JeF" firstAttribute="leading" secondItem="aYO-np-6i9" secondAttribute="leading" id="pEW-95-xKt"/>
-                                        <constraint firstAttribute="trailing" secondItem="rVI-p2-JeF" secondAttribute="trailing" id="u4a-J1-Rca"/>
+                                        <constraint firstItem="qDv-pp-Hj5" firstAttribute="top" secondItem="aYO-np-6i9" secondAttribute="top" id="5Vv-Ew-lEz"/>
+                                        <constraint firstItem="igM-zX-oGt" firstAttribute="top" secondItem="qDv-pp-Hj5" secondAttribute="bottom" id="MuU-vW-OV7"/>
+                                        <constraint firstAttribute="trailing" secondItem="qDv-pp-Hj5" secondAttribute="trailing" constant="16" id="gYB-Am-ijf"/>
+                                        <constraint firstItem="qDv-pp-Hj5" firstAttribute="leading" secondItem="aYO-np-6i9" secondAttribute="leading" constant="16" id="pb5-9b-wAW"/>
+                                        <constraint firstAttribute="bottom" secondItem="igM-zX-oGt" secondAttribute="bottom" constant="50" id="wZa-c4-Foa"/>
+                                        <constraint firstItem="igM-zX-oGt" firstAttribute="centerX" secondItem="aYO-np-6i9" secondAttribute="centerX" id="xHl-5w-Qmp"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="lblTitle" destination="Hkc-WR-M9L" id="4EJ-na-5PT"/>
-                                    <outlet property="logoImageView" destination="JN9-iu-cOF" id="XG5-qb-43n"/>
+                                    <outlet property="lblTitle" destination="qDv-pp-Hj5" id="AXv-Ud-TgF"/>
+                                    <outlet property="logoImageView" destination="igM-zX-oGt" id="oxt-st-DEW"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

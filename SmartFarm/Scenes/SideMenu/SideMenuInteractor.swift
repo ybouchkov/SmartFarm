@@ -21,6 +21,11 @@ class SideMenuInteractor: SideMenuBuisnessLogic {
     // MARK: - SideMenuBuisnessLogic
     
     func prepareItems() {
+        let menuItemActions: [SideMenuActionType] = [
+            .logo
+        ]
         
+        let response = SideMenuItemResponse(actions: menuItemActions)
+        presenter?.presentMenuItems(response: response)
     }
 }

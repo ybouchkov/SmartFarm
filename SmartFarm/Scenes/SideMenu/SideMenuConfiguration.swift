@@ -24,8 +24,10 @@ class SideMenuConfiguration {
         let interactor = SideMenuInteractor()
         let presenter = SideMenuPresenter()
         let router = SideMenuRouter()
+        
         viewController.interactor = interactor
         viewController.router = router
+        
         interactor.presenter = presenter
         presenter.viewController = viewController
         router.viewController = viewController

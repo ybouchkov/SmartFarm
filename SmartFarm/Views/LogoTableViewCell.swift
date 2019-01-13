@@ -23,9 +23,9 @@ class LogoTableViewCell: UITableViewCell {
     }
     
     private func setup() {
-//        self.contentView.backgroundColor = .navigationBarColour
-//        self.imageView?.image = #imageLiteral(resourceName: "smartFarmer")
-//        self.lblTitle.text = "SmartFarm"
+        self.contentView.backgroundColor = UIColor.AppColour.navigationBarColour
+        self.lblTitle.textColor = .white
+        self.lblTitle.font = Arsenal.bold.of(size: 20.0)
     }
 }
 
@@ -34,6 +34,7 @@ class LogoTableViewCell: UITableViewCell {
 extension LogoTableViewCell: SideMenuItemConfigurable {
     
     func configure(item: SideMenuItemRepresentable) {
-        
+        self.lblTitle.text = item.title
+        self.logoImageView.image = item.image
     }
 }

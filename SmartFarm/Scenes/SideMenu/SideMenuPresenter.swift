@@ -6,7 +6,7 @@
 //  Copyright © 2019 Yani Buchkov. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 protocol SideMenuPresentationLogic {
     
@@ -23,5 +23,29 @@ class SideMenuPresenter: SideMenuPresentationLogic {
     
     func presentMenuItems(response: SideMenuItemResponse) {
         
+        let menuViewModel: [SideMenuItemViewModel] = response.actions.map { action in
+            var menuItem: SideMenuItemViewModel
+            switch action {
+            case .logo:
+                menuItem = SideMenuItemViewModel(for: .logo, position: 0)
+                setupLogoMenuItemViewModel(menuItem, "SmartFarm", #imageLiteral(resourceName: "smartFarmer"))
+            }
+            
+            return menuItem
+        }
+        
+        viewController?.displayMenuItems(items: menuViewModel)
     }
+}
+
+// MARK: Helpers
+
+extension SideMenuPresenter {
+    fileprivate func setupLogoMenuItemViewModel(_ menuItem: SideMenuItemViewModel,
+                                                _ title: String,
+                                                _ image: UIImage) {
+        menuItem.title = title
+        menuItem.image = image
+    }
+                                            
 }
