@@ -12,6 +12,7 @@ enum SideMenuActionType {
     
     // TODO: Add the others
     case logo
+    case firstSectionHeader
 }
 
 class SideMenuItem {

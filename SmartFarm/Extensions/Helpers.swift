@@ -12,4 +12,5 @@ import UIKit
 enum Cells: String {
     
     case logoCell = "LogoTableViewCell"
+    case firstSectionHeader = "HeaderTableViewCell"
 }

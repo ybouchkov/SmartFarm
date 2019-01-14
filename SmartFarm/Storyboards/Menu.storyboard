@@ -53,6 +53,29 @@
                                     <outlet property="logoImageView" destination="igM-zX-oGt" id="oxt-st-DEW"/>
                                 </connections>
                             </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="HeaderTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="HeaderTableViewCell" rowHeight="54" id="nNA-uQ-6v3" customClass="HeaderTableViewCell" customModule="SmartFarm" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="230" width="375" height="54"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nNA-uQ-6v3" id="aGj-jD-BGG">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="54"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hsy-6m-X6Z">
+                                            <rect key="frame" x="50" y="16.5" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Hsy-6m-X6Z" firstAttribute="leading" secondItem="aGj-jD-BGG" secondAttribute="leading" constant="50" id="9x2-FN-Rqf"/>
+                                        <constraint firstItem="Hsy-6m-X6Z" firstAttribute="centerY" secondItem="aGj-jD-BGG" secondAttribute="centerY" id="nKj-wi-xpG"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="lblTitle" destination="Hsy-6m-X6Z" id="2Sa-f1-mMt"/>
+                                </connections>
+                            </tableViewCell>
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="m4r-Ta-dp2" id="6ct-5k-aRb"/>

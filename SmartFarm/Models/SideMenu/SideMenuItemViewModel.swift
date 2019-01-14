@@ -15,7 +15,7 @@ protocol SideMenuItemConfigurable {
 
 protocol SectionHeaderRepresentable {
     
-    var section: String? { get set }
+    var sectionTitle: String? { get set }
 }
 
 protocol ActionRepresentable {
@@ -33,6 +33,8 @@ enum SideMenuRepresentableItemFactory {
         switch action {
         case .logo:
             return Cells.logoCell.rawValue
+        case .firstSectionHeader:
+            return Cells.firstSectionHeader.rawValue
         }
     }
 }
@@ -43,7 +45,7 @@ class SideMenuItemViewModel: SideMenuItem, SideMenuItemRepresentable, TableViewC
     
     var reuseIdentifier: String
 
-    var section: String?
+    var sectionTitle: String?
     
     var image: UIImage?
     

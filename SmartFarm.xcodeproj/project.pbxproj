@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B2FB74029182E3892EF5D23 /* Pods_SmartFarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFCF6824CA4BA6C905FB717 /* Pods_SmartFarmUITests.framework */; };
+		2603A4E221EC7FEF001DCD5D /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2603A4E121EC7FEF001DCD5D /* HeaderTableViewCell.swift */; };
 		268300A721E87BC6009C1590 /* ArrayDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300A521E87BC5009C1590 /* ArrayDataProvider.swift */; };
 		268300A821E87BC6009C1590 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300A621E87BC5009C1590 /* DataProvider.swift */; };
 		268300AA21E87C94009C1590 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300A921E87C94009C1590 /* NavigationViewController.swift */; };
@@ -71,6 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2603A4E121EC7FEF001DCD5D /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
 		268300A521E87BC5009C1590 /* ArrayDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataProvider.swift; sourceTree = "<group>"; };
 		268300A621E87BC5009C1590 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		268300A921E87C94009C1590 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				268300D421E89727009C1590 /* LogoTableViewCell.swift */,
+				2603A4E121EC7FEF001DCD5D /* HeaderTableViewCell.swift */,
 			);
 			name = SideMenu;
 			sourceTree = "<group>";
@@ -647,6 +650,7 @@
 				268300A721E87BC6009C1590 /* ArrayDataProvider.swift in Sources */,
 				268300D821E89813009C1590 /* Helpers.swift in Sources */,
 				268300AA21E87C94009C1590 /* NavigationViewController.swift in Sources */,
+				2603A4E221EC7FEF001DCD5D /* HeaderTableViewCell.swift in Sources */,
 				268300D521E89727009C1590 /* LogoTableViewCell.swift in Sources */,
 				268300C421E88774009C1590 /* SideMenuPresenter.swift in Sources */,
 				268300DC21E8DDE3009C1590 /* UIColor+.swift in Sources */,

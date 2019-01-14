@@ -25,5 +25,11 @@ extension UIColor {
         static var navigationTitleColour: UIColor {
             return #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         }
+        
+        // MENU: Section colour
+        
+        static var sectionTitleColour: UIColor {
+            return #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
+        }
     }
 }

@@ -22,7 +22,8 @@ class SideMenuInteractor: SideMenuBuisnessLogic {
     
     func prepareItems() {
         let menuItemActions: [SideMenuActionType] = [
-            .logo
+            .logo,
+            .firstSectionHeader
         ]
         
         let response = SideMenuItemResponse(actions: menuItemActions)

@@ -28,7 +28,10 @@ class SideMenuPresenter: SideMenuPresentationLogic {
             switch action {
             case .logo:
                 menuItem = SideMenuItemViewModel(for: .logo, position: 0)
-                setupLogoMenuItemViewModel(menuItem, "SmartFarm", #imageLiteral(resourceName: "smartFarmer"))
+                setupLogoMenuItemViewModel(menuItem, "SmartFarm", #imageLiteral(resourceName: "smartFarmer")) // Localized
+            case .firstSectionHeader:
+                menuItem = SideMenuItemViewModel(for: .firstSectionHeader, position: 1)
+                setupHeaderMenuItemViewModel(menuItem, "Меню") // Localized, probably for next version
             }
             
             return menuItem
@@ -46,6 +49,11 @@ extension SideMenuPresenter {
                                                 _ image: UIImage) {
         menuItem.title = title
         menuItem.image = image
+    }
+    
+    fileprivate func setupHeaderMenuItemViewModel(_ menuItem: SideMenuItemViewModel,
+                                                  _ sectionTitle: String) {
+        menuItem.sectionTitle = sectionTitle
     }
                                             
 }
