@@ -29,6 +29,7 @@ class SideMenuViewController: UITableViewController, SideMenuDisplayLogic {
         super.viewDidLoad()
         
         prepareItems()
+        self.view.backgroundColor = UIColor.AppColour.navigationBarColour
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
@@ -95,6 +96,9 @@ extension SideMenuViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        // use router here ...
+        guard let viewModel = self.menuProvider[indexPath] else {
+            fatalError("Unsupported row model selected: \(indexPath.row)")
+        }
+        self.router?.navigate(to: viewModel)
     }
 }

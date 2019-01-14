@@ -23,7 +23,13 @@ class SideMenuInteractor: SideMenuBuisnessLogic {
     func prepareItems() {
         let menuItemActions: [SideMenuActionType] = [
             .logo,
-            .firstSectionHeader
+            .firstSectionHeader,
+            .cowsRow,
+            .femalesRow,
+            .calfsRow,
+            .emptySpaceRow,
+            .secondSectionHeader,
+            .moreInfoRow
         ]
         
         let response = SideMenuItemResponse(actions: menuItemActions)

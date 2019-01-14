@@ -13,4 +13,6 @@ enum Cells: String {
     
     case logoCell = "LogoTableViewCell"
     case firstSectionHeader = "HeaderTableViewCell"
+    case cowsRowCell = "ActionRowsTableViewCell"
+    case emptySpaceCell = "EmptySpaceTableViewCell"
 }

@@ -36,6 +36,7 @@ extension UIViewController {
                                                            target: nil,
                                                            action: nil)
         
+        self.navigationItem.leftBarButtonItem = menuBarButtoItem
     }
     
     static func swizzleViewDidLoad() {

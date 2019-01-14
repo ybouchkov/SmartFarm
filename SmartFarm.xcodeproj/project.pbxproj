@@ -48,6 +48,15 @@
 		26AEFFDA21E77C9D009ED8CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AEFFD821E77C9D009ED8CA /* LaunchScreen.storyboard */; };
 		26AEFFE521E77C9D009ED8CA /* SmartFarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFE421E77C9D009ED8CA /* SmartFarmTests.swift */; };
 		26AEFFF021E77C9D009ED8CA /* SmartFarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFEF21E77C9D009ED8CA /* SmartFarmUITests.swift */; };
+		26B02AAE21ED163800B7EBE8 /* ActionRowsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B02AAD21ED163800B7EBE8 /* ActionRowsTableViewCell.swift */; };
+		26B02AB021ED1C8800B7EBE8 /* EmptySpaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B02AAF21ED1C8800B7EBE8 /* EmptySpaceTableViewCell.swift */; };
+		26B02AB321ED237600B7EBE8 /* FemalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B02AB221ED237600B7EBE8 /* FemalesViewController.swift */; };
+		26B02AB521ED23ED00B7EBE8 /* FemalesViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B02AB421ED23ED00B7EBE8 /* FemalesViewConfiguration.swift */; };
+		26B02AB721ED248D00B7EBE8 /* FemalesViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B02AB621ED248D00B7EBE8 /* FemalesViewInteractor.swift */; };
+		26B02AB921ED24ED00B7EBE8 /* FemalesViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B02AB821ED24ED00B7EBE8 /* FemalesViewPresenter.swift */; };
+		26B02ABB21ED254A00B7EBE8 /* FemalesViewWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B02ABA21ED254A00B7EBE8 /* FemalesViewWorker.swift */; };
+		26B02ABD21ED256C00B7EBE8 /* FemalesViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B02ABC21ED256C00B7EBE8 /* FemalesViewRouter.swift */; };
+		26B02ABF21ED278C00B7EBE8 /* Females.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B02ABE21ED278C00B7EBE8 /* Females.storyboard */; };
 		26F4824C21EA87A800587093 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4824B21EA87A800587093 /* ThemeManager.swift */; };
 		26F4824E21EA89C100587093 /* DefaultTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4824D21EA89C100587093 /* DefaultTheme.swift */; };
 		50B5B2A2C29F4B59FBD528B8 /* Pods_SmartFarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA23B32482A51141E09B127 /* Pods_SmartFarmTests.framework */; };
@@ -118,6 +127,15 @@
 		26AEFFEB21E77C9D009ED8CA /* SmartFarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AEFFEF21E77C9D009ED8CA /* SmartFarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFarmUITests.swift; sourceTree = "<group>"; };
 		26AEFFF121E77C9D009ED8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B02AAD21ED163800B7EBE8 /* ActionRowsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRowsTableViewCell.swift; sourceTree = "<group>"; };
+		26B02AAF21ED1C8800B7EBE8 /* EmptySpaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySpaceTableViewCell.swift; sourceTree = "<group>"; };
+		26B02AB221ED237600B7EBE8 /* FemalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemalesViewController.swift; sourceTree = "<group>"; };
+		26B02AB421ED23ED00B7EBE8 /* FemalesViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemalesViewConfiguration.swift; sourceTree = "<group>"; };
+		26B02AB621ED248D00B7EBE8 /* FemalesViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemalesViewInteractor.swift; sourceTree = "<group>"; };
+		26B02AB821ED24ED00B7EBE8 /* FemalesViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemalesViewPresenter.swift; sourceTree = "<group>"; };
+		26B02ABA21ED254A00B7EBE8 /* FemalesViewWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemalesViewWorker.swift; sourceTree = "<group>"; };
+		26B02ABC21ED256C00B7EBE8 /* FemalesViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemalesViewRouter.swift; sourceTree = "<group>"; };
+		26B02ABE21ED278C00B7EBE8 /* Females.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Females.storyboard; sourceTree = "<group>"; };
 		26F4824B21EA87A800587093 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		26F4824D21EA89C100587093 /* DefaultTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTheme.swift; sourceTree = "<group>"; };
 		308609B5FBE92A29769AD2D4 /* Pods-SmartFarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFarmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartFarmUITests/Pods-SmartFarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -222,6 +240,8 @@
 			children = (
 				268300D421E89727009C1590 /* LogoTableViewCell.swift */,
 				2603A4E121EC7FEF001DCD5D /* HeaderTableViewCell.swift */,
+				26B02AAD21ED163800B7EBE8 /* ActionRowsTableViewCell.swift */,
+				26B02AAF21ED1C8800B7EBE8 /* EmptySpaceTableViewCell.swift */,
 			);
 			name = SideMenu;
 			sourceTree = "<group>";
@@ -244,6 +264,7 @@
 				268300C821E88C00009C1590 /* Menu.storyboard */,
 				26AEFFD821E77C9D009ED8CA /* LaunchScreen.storyboard */,
 				268300DD21E8E7C7009C1590 /* Cows.storyboard */,
+				26B02ABE21ED278C00B7EBE8 /* Females.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -335,6 +356,7 @@
 		26AEFFFD21E77F70009ED8CA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				26B02AB121ED236200B7EBE8 /* Females */,
 				268300BC21E885C7009C1590 /* SideMenu */,
 				26AE001021E7ABC8009ED8CA /* CowsScreen */,
 				268300A921E87C94009C1590 /* NavigationViewController.swift */,
@@ -349,6 +371,19 @@
 				26F4824D21EA89C100587093 /* DefaultTheme.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		26B02AB121ED236200B7EBE8 /* Females */ = {
+			isa = PBXGroup;
+			children = (
+				26B02AB221ED237600B7EBE8 /* FemalesViewController.swift */,
+				26B02AB421ED23ED00B7EBE8 /* FemalesViewConfiguration.swift */,
+				26B02AB621ED248D00B7EBE8 /* FemalesViewInteractor.swift */,
+				26B02AB821ED24ED00B7EBE8 /* FemalesViewPresenter.swift */,
+				26B02ABA21ED254A00B7EBE8 /* FemalesViewWorker.swift */,
+				26B02ABC21ED256C00B7EBE8 /* FemalesViewRouter.swift */,
+			);
+			path = Females;
 			sourceTree = "<group>";
 		};
 		26F4824A21EA876B00587093 /* Theme */ = {
@@ -501,6 +536,7 @@
 				26AEFFD521E77C9B009ED8CA /* Main.storyboard in Resources */,
 				268300B721E881D4009C1590 /* Arsenal-Italic.ttf in Resources */,
 				268300B821E881D4009C1590 /* Arsenal-BoldItalic.ttf in Resources */,
+				26B02ABF21ED278C00B7EBE8 /* Females.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +675,7 @@
 				26AE001221E7ABEB009ED8CA /* CowsViewConfiguration.swift in Sources */,
 				268300BB21E8823F009C1590 /* UIFont + Arsenal.swift in Sources */,
 				26AE000421E78025009ED8CA /* CowsViewController.swift in Sources */,
+				26B02AB521ED23ED00B7EBE8 /* FemalesViewConfiguration.swift in Sources */,
 				26AE000921E7AAA9009ED8CA /* CowsViewPresenter.swift in Sources */,
 				26AEFFD021E77C9B009ED8CA /* AppDelegate.swift in Sources */,
 				268300A821E87BC6009C1590 /* DataProvider.swift in Sources */,
@@ -648,18 +685,25 @@
 				26F4824E21EA89C100587093 /* DefaultTheme.swift in Sources */,
 				268300C221E88735009C1590 /* SideMenuInteractor.swift in Sources */,
 				268300A721E87BC6009C1590 /* ArrayDataProvider.swift in Sources */,
+				26B02AAE21ED163800B7EBE8 /* ActionRowsTableViewCell.swift in Sources */,
 				268300D821E89813009C1590 /* Helpers.swift in Sources */,
+				26B02AB921ED24ED00B7EBE8 /* FemalesViewPresenter.swift in Sources */,
 				268300AA21E87C94009C1590 /* NavigationViewController.swift in Sources */,
 				2603A4E221EC7FEF001DCD5D /* HeaderTableViewCell.swift in Sources */,
 				268300D521E89727009C1590 /* LogoTableViewCell.swift in Sources */,
 				268300C421E88774009C1590 /* SideMenuPresenter.swift in Sources */,
 				268300DC21E8DDE3009C1590 /* UIColor+.swift in Sources */,
 				268300B021E87DE3009C1590 /* UIViewController+.swift in Sources */,
+				26B02AB021ED1C8800B7EBE8 /* EmptySpaceTableViewCell.swift in Sources */,
+				26B02ABD21ED256C00B7EBE8 /* FemalesViewRouter.swift in Sources */,
 				268300C621E887B8009C1590 /* SideMenuRouter.swift in Sources */,
+				26B02ABB21ED254A00B7EBE8 /* FemalesViewWorker.swift in Sources */,
 				268300AC21E87D62009C1590 /* UIStoryboard+.swift in Sources */,
 				268300DA21E89AFF009C1590 /* UIFont + AppFonts.swift in Sources */,
 				268300CD21E88CAF009C1590 /* SideMenuDataProvider.swift in Sources */,
+				26B02AB721ED248D00B7EBE8 /* FemalesViewInteractor.swift in Sources */,
 				268300AE21E87D7D009C1590 /* String+.swift in Sources */,
+				26B02AB321ED237600B7EBE8 /* FemalesViewController.swift in Sources */,
 				268300D221E8906A009C1590 /* ListViewCompatible.swift in Sources */,
 				268300BE21E885ED009C1590 /* SideMenuViewController.swift in Sources */,
 				26AE000D21E7AABE009ED8CA /* CowsViewInteractor.swift in Sources */,

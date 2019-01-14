@@ -24,8 +24,10 @@ class NavigationViewController: UINavigationController {
     private func setupNavigation() {
         let menuScene = SideMenuViewController.instantiateFrom(appStoryboard: .menu)
         let menuLeftNavigationController = UISideMenuNavigationController(rootViewController: menuScene)
+        menuLeftNavigationController.setNavigationBarHidden(true, animated: false)
         SideMenuManager.default.menuLeftNavigationController = menuLeftNavigationController
-
+        SideMenuManager.default.menuAddScreenEdgePanGesturesToPresent(toView: self.view,
+                                                                      forMenu: .left)
         SideMenuManager.default.menuWidth = 0.7 * UIScreen.main.bounds.width
         // Prevent status bar area from turning black when menu appears:
         SideMenuManager.default.menuFadeStatusBar = false

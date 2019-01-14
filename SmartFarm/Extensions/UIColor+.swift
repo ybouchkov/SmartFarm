@@ -26,10 +26,20 @@ extension UIColor {
             return #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         }
         
-        // MENU: Section colour
+        // MENU: Section & Rows colours
         
         static var sectionTitleColour: UIColor {
             return #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
+        }
+        
+        static var rowsTitleColour: UIColor {
+            return #colorLiteral(red: 0.1351746411, green: 0.1277557791, blue: 0.09182363014, alpha: 1)
+        }
+        
+        // Separator
+        
+        static var separatorColour: UIColor {
+            return #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
         }
     }
 }

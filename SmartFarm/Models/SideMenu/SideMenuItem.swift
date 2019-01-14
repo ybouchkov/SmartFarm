@@ -13,6 +13,12 @@ enum SideMenuActionType {
     // TODO: Add the others
     case logo
     case firstSectionHeader
+    case cowsRow
+    case femalesRow
+    case calfsRow
+    case emptySpaceRow
+    case secondSectionHeader
+    case moreInfoRow
 }
 
 class SideMenuItem {

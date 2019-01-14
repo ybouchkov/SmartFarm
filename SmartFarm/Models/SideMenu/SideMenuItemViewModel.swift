@@ -33,8 +33,16 @@ enum SideMenuRepresentableItemFactory {
         switch action {
         case .logo:
             return Cells.logoCell.rawValue
-        case .firstSectionHeader:
+        case .firstSectionHeader,
+             .secondSectionHeader:
             return Cells.firstSectionHeader.rawValue
+        case .cowsRow,
+             .femalesRow,
+             .calfsRow,
+             .moreInfoRow:
+            return Cells.cowsRowCell.rawValue
+        case .emptySpaceRow:
+            return Cells.emptySpaceCell.rawValue
         }
     }
 }

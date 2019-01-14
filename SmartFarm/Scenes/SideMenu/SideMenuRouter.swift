@@ -10,7 +10,7 @@ import UIKit
 
 protocol SideMenuNavigationLogic {
     
-    func navigate()
+    func navigate(to selectedMenuItem: SideMenuItem)
 }
 
 class SideMenuRouter: SideMenuNavigationLogic {
@@ -21,7 +21,16 @@ class SideMenuRouter: SideMenuNavigationLogic {
     
     // MARK: - SideMenuNavigationLogic
     
-    func navigate() {
-        
+    func navigate(to selectedMenuItem: SideMenuItem) {
+        switch selectedMenuItem.action {
+        case .cowsRow:
+            let cowsScene = CowsViewController.instantiateFrom(appStoryboard: .cows)
+            viewController?.show(cowsScene, sender: nil)
+        case .femalesRow:
+            let femalesScene = FemalesViewController.instantiateFrom(appStoryboard: .females)
+            viewController?.show(femalesScene, sender: nil)
+        default:
+            break
+        }
     }
 }

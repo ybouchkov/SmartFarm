@@ -17,7 +17,19 @@
                     <view key="view" contentMode="scaleToFill" id="8uC-DD-ewA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There is no data yet :(" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="en4-WB-Ys1">
+                                <rect key="frame" x="104.5" y="323" width="166.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="en4-WB-Ys1" firstAttribute="centerX" secondItem="8uC-DD-ewA" secondAttribute="centerX" id="LlY-GM-N5K"/>
+                            <constraint firstItem="en4-WB-Ys1" firstAttribute="centerY" secondItem="8uC-DD-ewA" secondAttribute="centerY" id="V9k-Zb-Jzq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="98x-fC-iqe"/>
                     </view>
                 </viewController>
