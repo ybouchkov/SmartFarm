@@ -29,6 +29,12 @@ class SideMenuRouter: SideMenuNavigationLogic {
         case .femalesRow:
             let femalesScene = FemalesViewController.instantiateFrom(appStoryboard: .females)
             viewController?.show(femalesScene, sender: nil)
+        case .calfsRow:
+            let calfsScene = CalfsViewController.instantiateFrom(appStoryboard: .calfs)
+            viewController?.show(calfsScene, sender: nil)
+        case .moreInfoRow:
+            let aboutScreen = AboutViewController.instantiateFrom(appStoryboard: .about)
+            viewController?.show(aboutScreen, sender: nil)
         default:
             break
         }

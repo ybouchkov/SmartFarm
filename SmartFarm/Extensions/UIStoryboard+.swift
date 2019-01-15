@@ -15,6 +15,8 @@ enum Storyboard: String {
     case menu
     case females
     case cows
+    case calfs
+    case about
     
     var fileName: String {
         return rawValue.capitalizingFirstLetter()

@@ -29,7 +29,7 @@ class SideMenuViewController: UITableViewController, SideMenuDisplayLogic {
         super.viewDidLoad()
         
         prepareItems()
-        self.view.backgroundColor = UIColor.AppColour.navigationBarColour
+        self.view.backgroundColor = UIColor.AppColour.primaryColour
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {

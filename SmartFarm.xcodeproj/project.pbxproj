@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		0B2FB74029182E3892EF5D23 /* Pods_SmartFarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFCF6824CA4BA6C905FB717 /* Pods_SmartFarmUITests.framework */; };
 		2603A4E221EC7FEF001DCD5D /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2603A4E121EC7FEF001DCD5D /* HeaderTableViewCell.swift */; };
+		261DF9A521EE216200A99A49 /* CalfsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261DF9A421EE216200A99A49 /* CalfsViewController.swift */; };
+		261DF9A721EE21EE00A99A49 /* CalfsViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261DF9A621EE21EE00A99A49 /* CalfsViewConfiguration.swift */; };
+		261DF9A921EE226100A99A49 /* CalfsViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261DF9A821EE226100A99A49 /* CalfsViewInteractor.swift */; };
+		261DF9AB21EE22A900A99A49 /* CalfsViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261DF9AA21EE22A900A99A49 /* CalfsViewPresenter.swift */; };
+		261DF9AD21EE22DF00A99A49 /* CalfsViewWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261DF9AC21EE22DF00A99A49 /* CalfsViewWorker.swift */; };
+		261DF9AF21EE22F200A99A49 /* CalfsViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261DF9AE21EE22F200A99A49 /* CalfsViewRouter.swift */; };
+		261DF9B121EE234C00A99A49 /* Calfs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261DF9B021EE234C00A99A49 /* Calfs.storyboard */; };
+		261DF9B521EE256900A99A49 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261DF9B421EE256900A99A49 /* About.storyboard */; };
+		261DF9B821EE25B500A99A49 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261DF9B721EE25B500A99A49 /* AboutViewController.swift */; };
 		268300A721E87BC6009C1590 /* ArrayDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300A521E87BC5009C1590 /* ArrayDataProvider.swift */; };
 		268300A821E87BC6009C1590 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300A621E87BC5009C1590 /* DataProvider.swift */; };
 		268300AA21E87C94009C1590 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268300A921E87C94009C1590 /* NavigationViewController.swift */; };
@@ -82,6 +91,15 @@
 
 /* Begin PBXFileReference section */
 		2603A4E121EC7FEF001DCD5D /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		261DF9A421EE216200A99A49 /* CalfsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalfsViewController.swift; sourceTree = "<group>"; };
+		261DF9A621EE21EE00A99A49 /* CalfsViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalfsViewConfiguration.swift; sourceTree = "<group>"; };
+		261DF9A821EE226100A99A49 /* CalfsViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalfsViewInteractor.swift; sourceTree = "<group>"; };
+		261DF9AA21EE22A900A99A49 /* CalfsViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalfsViewPresenter.swift; sourceTree = "<group>"; };
+		261DF9AC21EE22DF00A99A49 /* CalfsViewWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalfsViewWorker.swift; sourceTree = "<group>"; };
+		261DF9AE21EE22F200A99A49 /* CalfsViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalfsViewRouter.swift; sourceTree = "<group>"; };
+		261DF9B021EE234C00A99A49 /* Calfs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calfs.storyboard; sourceTree = "<group>"; };
+		261DF9B421EE256900A99A49 /* About.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
+		261DF9B721EE25B500A99A49 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		268300A521E87BC5009C1590 /* ArrayDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataProvider.swift; sourceTree = "<group>"; };
 		268300A621E87BC5009C1590 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		268300A921E87C94009C1590 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
@@ -177,6 +195,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		261DF9A321EE214D00A99A49 /* Calfs */ = {
+			isa = PBXGroup;
+			children = (
+				261DF9A421EE216200A99A49 /* CalfsViewController.swift */,
+				261DF9A621EE21EE00A99A49 /* CalfsViewConfiguration.swift */,
+				261DF9A821EE226100A99A49 /* CalfsViewInteractor.swift */,
+				261DF9AA21EE22A900A99A49 /* CalfsViewPresenter.swift */,
+				261DF9AC21EE22DF00A99A49 /* CalfsViewWorker.swift */,
+				261DF9AE21EE22F200A99A49 /* CalfsViewRouter.swift */,
+			);
+			path = Calfs;
+			sourceTree = "<group>";
+		};
+		261DF9B621EE25A000A99A49 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				261DF9B721EE25B500A99A49 /* AboutViewController.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
 		268300A421E87BB7009C1590 /* DataProvider */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +304,8 @@
 				26AEFFD821E77C9D009ED8CA /* LaunchScreen.storyboard */,
 				268300DD21E8E7C7009C1590 /* Cows.storyboard */,
 				26B02ABE21ED278C00B7EBE8 /* Females.storyboard */,
+				261DF9B021EE234C00A99A49 /* Calfs.storyboard */,
+				261DF9B421EE256900A99A49 /* About.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -356,6 +397,8 @@
 		26AEFFFD21E77F70009ED8CA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				261DF9B621EE25A000A99A49 /* About */,
+				261DF9A321EE214D00A99A49 /* Calfs */,
 				26B02AB121ED236200B7EBE8 /* Females */,
 				268300BC21E885C7009C1590 /* SideMenu */,
 				26AE001021E7ABC8009ED8CA /* CowsScreen */,
@@ -531,9 +574,11 @@
 				268300B621E881D4009C1590 /* Arsenal-Bold.ttf in Resources */,
 				26AEFFD721E77C9D009ED8CA /* Assets.xcassets in Resources */,
 				268300C921E88C00009C1590 /* Menu.storyboard in Resources */,
+				261DF9B521EE256900A99A49 /* About.storyboard in Resources */,
 				26AE000721E7A6B6009ED8CA /* README.md in Resources */,
 				268300B921E881D4009C1590 /* Arsenal-Regular.ttf in Resources */,
 				26AEFFD521E77C9B009ED8CA /* Main.storyboard in Resources */,
+				261DF9B121EE234C00A99A49 /* Calfs.storyboard in Resources */,
 				268300B721E881D4009C1590 /* Arsenal-Italic.ttf in Resources */,
 				268300B821E881D4009C1590 /* Arsenal-BoldItalic.ttf in Resources */,
 				26B02ABF21ED278C00B7EBE8 /* Females.storyboard in Resources */,
@@ -671,13 +716,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				26AE000B21E7AAB3009ED8CA /* CowsViewWorker.swift in Sources */,
+				261DF9AB21EE22A900A99A49 /* CalfsViewPresenter.swift in Sources */,
 				26AE000F21E7AAD0009ED8CA /* CowsViewRouter.swift in Sources */,
+				261DF9B821EE25B500A99A49 /* AboutViewController.swift in Sources */,
 				26AE001221E7ABEB009ED8CA /* CowsViewConfiguration.swift in Sources */,
 				268300BB21E8823F009C1590 /* UIFont + Arsenal.swift in Sources */,
 				26AE000421E78025009ED8CA /* CowsViewController.swift in Sources */,
 				26B02AB521ED23ED00B7EBE8 /* FemalesViewConfiguration.swift in Sources */,
 				26AE000921E7AAA9009ED8CA /* CowsViewPresenter.swift in Sources */,
 				26AEFFD021E77C9B009ED8CA /* AppDelegate.swift in Sources */,
+				261DF9AD21EE22DF00A99A49 /* CalfsViewWorker.swift in Sources */,
 				268300A821E87BC6009C1590 /* DataProvider.swift in Sources */,
 				268300CF21E88D24009C1590 /* SideMenuItem.swift in Sources */,
 				268300CB21E88C97009C1590 /* SideMenuItemViewModel.swift in Sources */,
@@ -689,9 +737,12 @@
 				268300D821E89813009C1590 /* Helpers.swift in Sources */,
 				26B02AB921ED24ED00B7EBE8 /* FemalesViewPresenter.swift in Sources */,
 				268300AA21E87C94009C1590 /* NavigationViewController.swift in Sources */,
+				261DF9A521EE216200A99A49 /* CalfsViewController.swift in Sources */,
 				2603A4E221EC7FEF001DCD5D /* HeaderTableViewCell.swift in Sources */,
+				261DF9A921EE226100A99A49 /* CalfsViewInteractor.swift in Sources */,
 				268300D521E89727009C1590 /* LogoTableViewCell.swift in Sources */,
 				268300C421E88774009C1590 /* SideMenuPresenter.swift in Sources */,
+				261DF9A721EE21EE00A99A49 /* CalfsViewConfiguration.swift in Sources */,
 				268300DC21E8DDE3009C1590 /* UIColor+.swift in Sources */,
 				268300B021E87DE3009C1590 /* UIViewController+.swift in Sources */,
 				26B02AB021ED1C8800B7EBE8 /* EmptySpaceTableViewCell.swift in Sources */,
@@ -706,6 +757,7 @@
 				26B02AB321ED237600B7EBE8 /* FemalesViewController.swift in Sources */,
 				268300D221E8906A009C1590 /* ListViewCompatible.swift in Sources */,
 				268300BE21E885ED009C1590 /* SideMenuViewController.swift in Sources */,
+				261DF9AF21EE22F200A99A49 /* CalfsViewRouter.swift in Sources */,
 				26AE000D21E7AABE009ED8CA /* CowsViewInteractor.swift in Sources */,
 				26F4824C21EA87A800587093 /* ThemeManager.swift in Sources */,
 			);

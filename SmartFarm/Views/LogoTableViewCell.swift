@@ -23,7 +23,7 @@ class LogoTableViewCell: UITableViewCell {
     }
     
     private func setup() {
-        self.contentView.backgroundColor = UIColor.AppColour.navigationBarColour
+        self.contentView.backgroundColor = UIColor.AppColour.primaryColour
         self.lblTitle.textColor = .white
         self.lblTitle.font = Arsenal.bold.of(size: 20.0)
     }

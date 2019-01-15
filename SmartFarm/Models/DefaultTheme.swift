@@ -11,7 +11,7 @@ import UIKit
 class DefaultTheme: Theme {
     
     var navigationColour: UIColor {
-        return UIColor.AppColour.navigationBarColour
+        return UIColor.AppColour.primaryColour
     }
     
     var navigationTitleColour: UIColor {

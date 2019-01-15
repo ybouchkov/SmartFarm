@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UxD-WI-7rm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About View Controller-->
+        <scene sceneID="1nW-du-5wY">
+            <objects>
+                <viewController storyboardIdentifier="AboutViewController" id="UxD-WI-7rm" customClass="AboutViewController" customModule="SmartFarm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nQN-9N-XOs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XhK-No-WPe">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G86-74-pgR">
+                                        <rect key="frame" x="166.5" y="14.5" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="G86-74-pgR" firstAttribute="centerY" secondItem="XhK-No-WPe" secondAttribute="centerY" id="4om-kV-pFv"/>
+                                    <constraint firstItem="G86-74-pgR" firstAttribute="centerX" secondItem="XhK-No-WPe" secondAttribute="centerX" id="EQc-V3-BS2"/>
+                                    <constraint firstAttribute="height" constant="50" id="Tzp-dj-vdj"/>
+                                    <constraint firstAttribute="width" constant="375" id="kzv-Mv-p7U"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smartFarmer" translatesAutoresizingMaskIntoConstraints="NO" id="bGH-xU-J3U">
+                                <rect key="frame" x="67.5" y="50" width="240" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="XS7-kh-MHN"/>
+                                    <constraint firstAttribute="width" constant="240" id="rBE-Ne-Kpy"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pWz-sA-djg">
+                                <rect key="frame" x="0.0" y="567" width="375" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNn-dd-2Rf">
+                                        <rect key="frame" x="166.5" y="14.5" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="dNn-dd-2Rf" firstAttribute="centerY" secondItem="pWz-sA-djg" secondAttribute="centerY" id="8vy-WJ-WGy"/>
+                                    <constraint firstItem="dNn-dd-2Rf" firstAttribute="centerX" secondItem="pWz-sA-djg" secondAttribute="centerX" id="M4Y-8m-2Bg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pWz-sA-djg" firstAttribute="leading" secondItem="XhK-No-WPe" secondAttribute="leading" id="03p-At-kAo"/>
+                            <constraint firstItem="pWz-sA-djg" firstAttribute="height" secondItem="XhK-No-WPe" secondAttribute="height" id="3dP-ym-7ye"/>
+                            <constraint firstItem="bGH-xU-J3U" firstAttribute="top" secondItem="9tB-iu-4LO" secondAttribute="top" constant="30" id="CM0-vs-dUX"/>
+                            <constraint firstItem="bGH-xU-J3U" firstAttribute="centerX" secondItem="9tB-iu-4LO" secondAttribute="centerX" id="MFs-tY-geC"/>
+                            <constraint firstItem="XhK-No-WPe" firstAttribute="bottom" secondItem="9tB-iu-4LO" secondAttribute="bottom" id="OeP-Md-MCe"/>
+                            <constraint firstItem="pWz-sA-djg" firstAttribute="trailing" secondItem="XhK-No-WPe" secondAttribute="trailing" id="TXG-Fs-sbh"/>
+                            <constraint firstItem="XhK-No-WPe" firstAttribute="trailing" secondItem="9tB-iu-4LO" secondAttribute="trailing" id="nVU-lS-IDW"/>
+                            <constraint firstItem="XhK-No-WPe" firstAttribute="leading" secondItem="9tB-iu-4LO" secondAttribute="leading" id="rdp-fD-qJA"/>
+                            <constraint firstItem="XhK-No-WPe" firstAttribute="top" secondItem="pWz-sA-djg" secondAttribute="bottom" id="sLQ-8S-2WW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9tB-iu-4LO"/>
+                    </view>
+                    <connections>
+                        <outlet property="authorView" destination="pWz-sA-djg" id="u9C-8x-Y96"/>
+                        <outlet property="lblAuthor" destination="dNn-dd-2Rf" id="St8-Nf-zO7"/>
+                        <outlet property="lblVersion" destination="G86-74-pgR" id="NyQ-Sr-cma"/>
+                        <outlet property="versionView" destination="XhK-No-WPe" id="AlI-pO-wYn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v1d-Vs-D8c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="27.436281859070466"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="smartFarmer" width="600" height="373"/>
+    </resources>
+</document>

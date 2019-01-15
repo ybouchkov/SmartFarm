@@ -16,7 +16,7 @@ extension UIColor {
         
         // Navigation background colour
         
-        static var navigationBarColour: UIColor {
+        static var primaryColour: UIColor {
             return #colorLiteral(red: 0, green: 0.9019607843, blue: 0.4509803922, alpha: 1)
         }
         
